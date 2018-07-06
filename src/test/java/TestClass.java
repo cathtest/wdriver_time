@@ -44,8 +44,7 @@ public class TestClass {
             "\n 3. Enter activity name in the field" +
             "\n 4. Click on today cell in the table" +
             "\n 5. Enter the quantity of hours in the field" +
-            "\n 6. For each working day with the exception of today enter the quantity of hours",
-            priority = 1)
+            "\n 6. For each working day with the exception of today enter the quantity of hours")
     public void checkThatAddHoursWorkCorrectly(){
         projectsBlock.getAddActivityButton().click();
         projectsBlock.getActivityField().sendKeys("Daily sync-up");
@@ -64,8 +63,7 @@ public class TestClass {
             "\n 2. Click on projects drop-down list" +
             "\n 3. Get text from the first project"+
             "\n 4. Get text from the first project in the table" +
-            "\n 5. Compare the project names",
-            priority = 2)
+            "\n 5. Compare the project names")
     public void checkThatProjectsInProjectListAreShownOnTheDashboard(){
         driver.findElement(By.cssSelector("#choose-project-select")).click();
         WebElement projectDropDown = projectsBlock.getProjectNameLocator();
@@ -79,8 +77,7 @@ public class TestClass {
     @Test(description =
             "\n 1. Open time.epam.com" +
             "\n 2. Go to month view" +
-            "\n 3. get user total reported time",
-            priority = 3)
+            "\n 3. get user total reported time")
     public void total(){
         projectsBlock.getMonthsView().click();
         WebElement total = projectsBlock.getTotalHours();
@@ -95,8 +92,7 @@ public class TestClass {
             "\n 4. Add new activity" +
             "\n 5. Add an hour for that activity" +
             "\n 6. Save changes" +
-            "\n 7. Verify that total time is changed",
-            priority = 4)
+            "\n 7. Verify that total time is changed")
     public void checkThatTotalTimeIsChanged(){
         projectsBlock.getMonthsView().click();
         String totalTimeBeforeChanges = projectsBlock.getTotalHours().getText();
@@ -114,9 +110,7 @@ public class TestClass {
             "\n 3. Click on the user selector" +
             "\n 4. For each user: " +
             "\n 4.1 open user profile" +
-            "\n 4.2 get user total reported time",
-            priority = 5
-    )
+            "\n 4.2 get user total reported time")
     public void checkThatAllUsersAreAvailableAndThersTotalHours() {
         projectsBlock.getMonthsView().click();
         WebElement total = projectsBlock.getTotalHours();
@@ -149,8 +143,7 @@ public class TestClass {
     @Test (description =
             "\n 1. Open time.epam.com" +
             "\n 2. Click on Export to Excel" +
-            "\n 3. Click on Export button",
-            priority = 5)
+            "\n 3. Click on Export button")
     public void exportExcel(){
         projectsBlock.getExportToExcelButton().click();
         WebElement export = projectsBlock.getExportButton();
@@ -161,8 +154,7 @@ public class TestClass {
     @Test (description =
             "\n 1. Open time.epam.com" +
             "\n 2. Click on 2 weeks button" +
-            "\n 3. Verify total time is changed",
-            priority = 6)
+            "\n 3. Verify total time is changed")
     public void checkThatTwoWeeksButtonWorksCorrectly(){
         String totalTimeBeforeChanges = projectsBlock.getTotalHours().getText();
         projectsBlock.getSwitchTimePeriodButton().click();
@@ -175,8 +167,7 @@ public class TestClass {
             "\n 2. Click the Current User button at the top left corner" +
             "\n 3. Click search button" +
             "\n 4. Enter existing user name" +
-            "\n 5. Verify User is found",
-            priority = 6)
+            "\n 5. Verify User is found")
     public void checkThatUserSearchIsCorrect(){
         String someName = "Alexey Alexandrov";
         projectsBlock.getCurrenUser().click();
@@ -196,8 +187,7 @@ public class TestClass {
             "\n 4. Click on today cell in the table" +
             "\n 5. Enter the quantity of hours in the field" +
             "\n 6. For each working day with the exception of today enter the quantity of hours" +
-            "\n 7. Refresh the page",
-            priority = 7)
+            "\n 7. Refresh the page")
     public void checkThatDataNotSavedAfterRefreshingPage(){
             projectsBlock.getAddActivityButton().click();
             projectsBlock.getActivityField().sendKeys("Test activity");
@@ -220,8 +210,7 @@ public class TestClass {
             "\n 4. Click on today cell in the table" +
             "\n 5. Enter the quantity of hours in the field" +
             "\n 6. For each working day with the exception of today enter the quantity of hours" +
-            "\n 7. Click Cancel Button",
-            priority = 8)
+            "\n 7. Click Cancel Button")
     public void checkThatDataNotSavedAfterClickingCancel(){
         projectsBlock.getAddActivityButton().click();
         projectsBlock.getActivityField().sendKeys("Daily sync-up");
@@ -239,8 +228,7 @@ public class TestClass {
             "\n 1. Open time.epam.com" +
             "\n 2. Click on Calendar button" +
             "\n 3. Choose the time range that is not equal to the current time range" +
-            "\n 4. Verify date on the calendar has been changed",
-            priority = 9)
+            "\n 4. Verify date on the calendar has been changed")
     public void checkThatTodayButtonWorksCorrectly(){
         String dateBeforeSwitch = projectsBlock.getCalendarButton().getText();
         projectsBlock.getCalendarButton().click();
@@ -252,8 +240,7 @@ public class TestClass {
             "\n 1. Open time.epam.com" +
             "\n 2. Click on Calendar button" +
             "\n 3. Choose the time range that is not equal to the current time range" +
-            "\n 4. Verify date of the columns in the table has been changed",
-            priority = 10)
+            "\n 4. Verify date of the columns in the table has been changed")
     private void checkThatTableIsShownAccordingToCalendarWeek(){
         String columnBeforeSwitch = projectsBlock.getWorkingDayColumnDate().getText();
         projectsBlock.getCalendarButton().click();

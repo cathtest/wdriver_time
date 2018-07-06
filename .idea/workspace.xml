@@ -22,12 +22,12 @@
       <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+            <state relative-caret-position="4114">
+              <caret line="242" column="76" lean-forward="false" selection-start-line="242" selection-start-column="76" selection-end-line="242" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#12616#12617#0" expanded="true" />
-                <element signature="e#12645#12646#0" expanded="true" />
+                <element signature="e#12298#12299#0" expanded="true" />
+                <element signature="e#12327#12328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -565,7 +565,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="163" />
     <option name="width" value="1444" />
     <option name="height" value="920" />
@@ -947,7 +947,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1005,8 +1005,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12616#12617#0" expanded="true" />
-            <element signature="e#12645#12646#0" expanded="true" />
+            <element signature="e#12298#12299#0" expanded="true" />
+            <element signature="e#12327#12328#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1147,8 +1147,8 @@
           <caret line="9" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12616#12617#0" expanded="true" />
-            <element signature="e#12645#12646#0" expanded="true" />
+            <element signature="e#12298#12299#0" expanded="true" />
+            <element signature="e#12327#12328#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1173,8 +1173,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12616#12617#0" expanded="true" />
-            <element signature="e#12645#12646#0" expanded="true" />
+            <element signature="e#12298#12299#0" expanded="true" />
+            <element signature="e#12327#12328#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1342,12 +1342,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+        <state relative-caret-position="4114">
+          <caret line="242" column="76" lean-forward="false" selection-start-line="242" selection-start-column="76" selection-end-line="242" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12616#12617#0" expanded="true" />
-            <element signature="e#12645#12646#0" expanded="true" />
+            <element signature="e#12298#12299#0" expanded="true" />
+            <element signature="e#12327#12328#0" expanded="true" />
           </folding>
         </state>
       </provider>
