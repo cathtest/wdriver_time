@@ -13,8 +13,8 @@ import java.util.regex.Pattern;
 
 public class TestClass {
     private static final String START_URL = "https://time.epam.com";
-    private static final String USER_NAME = "katsiaryna_hrynchuk@epam.com";
-    private static final String PASSWORD = "Fentfebel4";
+    private static final String USER_NAME = "xxxxx";
+    private static final String PASSWORD = "xxxxx";
     private WebDriver driver;
     TableJournalBlock tableJournalBlock;
     ControlPanelBlock controlPanelBlock;
