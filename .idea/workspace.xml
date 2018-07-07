@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="test">
+      <change beforePath="$PROJECT_DIR$/out/production/classes/blocks/ControlPanelBlock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/blocks/TableJournalBlock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blocks/ExportExcellBlock.java" afterPath="$PROJECT_DIR$/src/main/java/blocks/ExportExcellBlock.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,12 +27,12 @@
       <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="162">
+              <caret line="156" column="52" lean-forward="false" selection-start-line="156" selection-start-column="52" selection-end-line="156" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#12631#12632#0" expanded="true" />
-                <element signature="e#12660#12661#0" expanded="true" />
+                <element signature="e#12786#12787#0" expanded="true" />
+                <element signature="e#12815#12816#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,7 +41,7 @@
       <file leaf-file-name="TableJournalBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
+            <state relative-caret-position="170">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,8 +99,8 @@
       <file leaf-file-name="ExportExcellBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ExportExcellBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="102">
+              <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -512,10 +515,10 @@
         <option value="$PROJECT_DIR$/src/main/java/blocks/EportExcellBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/LoginBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/Calendar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/blocks/ExportExcellBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/ProjectsBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blocks/ExportExcellBlock.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
       </list>
     </option>
@@ -616,7 +619,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass.checkThatTotalTimeIsChanged">
+  <component name="RunManager" selected="TestNG.TestClass.exportExcel">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -677,33 +680,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestClass.checkThatDataNotSavedAfterRefreshingPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="time_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="checkThatDataNotSavedAfterRefreshingPage" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="0" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
@@ -799,6 +775,33 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="TestClass.exportExcel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="time_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="exportExcel" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -834,18 +837,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.TestClass" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatDataNotSavedAfterRefreshingPage" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTodayButtonWorksCorrectly" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTableIsShownAccordingToCalendarWeek" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTotalTimeIsChanged" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTodayButtonWorksCorrectly" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTableIsShownAccordingToCalendarWeek" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTotalTimeIsChanged" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestClass.exportExcel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTotalTimeIsChanged" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestClass" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTableIsShownAccordingToCalendarWeek" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTodayButtonWorksCorrectly" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatDataNotSavedAfterRefreshingPage" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestClass.exportExcel" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTotalTimeIsChanged" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestClass" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTableIsShownAccordingToCalendarWeek" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TestClass.checkThatTodayButtonWorksCorrectly" />
       </list>
     </recent_temporary>
   </component>
@@ -866,12 +869,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClass - 2018.07.07 at 16h 39m 02s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2018.07.07 at 17h 05m 12s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestClass - 2018.07.07 at 17h 23m 34s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
@@ -895,6 +892,12 @@
     </history-entry>
     <history-entry file="TestClass_checkThatTotalTimeIsChanged - 2018.07.07 at 17h 30m 02s.xml">
       <configuration name="TestClass.checkThatTotalTimeIsChanged" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_exportExcel - 2018.07.07 at 18h 01m 09s.xml">
+      <configuration name="TestClass.exportExcel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_exportExcel - 2018.07.07 at 18h 03m 31s.xml">
+      <configuration name="TestClass.exportExcel" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1063,8 +1066,8 @@
           <caret line="242" column="76" lean-forward="false" selection-start-line="242" selection-start-column="76" selection-end-line="242" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12631#12632#0" expanded="true" />
-            <element signature="e#12660#12661#0" expanded="true" />
+            <element signature="e#12786#12787#0" expanded="true" />
+            <element signature="e#12815#12816#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1132,8 +1135,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12631#12632#0" expanded="true" />
-            <element signature="e#12660#12661#0" expanded="true" />
+            <element signature="e#12786#12787#0" expanded="true" />
+            <element signature="e#12815#12816#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1208,8 +1211,8 @@
           <caret line="9" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12631#12632#0" expanded="true" />
-            <element signature="e#12660#12661#0" expanded="true" />
+            <element signature="e#12786#12787#0" expanded="true" />
+            <element signature="e#12815#12816#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1234,8 +1237,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12631#12632#0" expanded="true" />
-            <element signature="e#12660#12661#0" expanded="true" />
+            <element signature="e#12786#12787#0" expanded="true" />
+            <element signature="e#12815#12816#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1324,16 +1327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ExportExcellBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ProjectsBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1342,20 +1335,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="9" column="91" lean-forward="false" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/Calendar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="91" lean-forward="false" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1392,14 +1385,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ExportExcellBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#12631#12632#0" expanded="true" />
-            <element signature="e#12660#12661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="156" column="52" lean-forward="false" selection-start-line="156" selection-start-column="52" selection-end-line="156" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12786#12787#0" expanded="true" />
+            <element signature="e#12815#12816#0" expanded="true" />
           </folding>
         </state>
       </provider>

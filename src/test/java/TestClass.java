@@ -154,10 +154,13 @@ public class TestClass {
             "\n 2. Click on Export to Excel" +
             "\n 3. Click on Export button")
     public void exportExcel(){
+        String expectedURL = driver.getCurrentUrl();
         exportExcellBlock.getExportToExcelButton().click();
-        WebElement export = exportExcellBlock.getExportButton();
+        exportExcellBlock.getExportButton().click();
+        String redirectURL = driver.getCurrentUrl();
+        Assert.assertEquals(redirectURL, expectedURL);
         LogManager.info("Checking export to Excel");
-        Assert.assertTrue(export.isDisplayed(), "Export button is not available");
+        Assert.assertEquals(redirectURL, expectedURL, "Export button is not available");
     }
 
     @Test (description =

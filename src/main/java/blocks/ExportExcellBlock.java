@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class ExportExcellBlock {
     private WebDriver driver;
     private By exportToExcelButton = By.xpath("//figure[@class='user-photo-container']/../span[@class='export-excel']");
-    private By exportButton = By.xpath("//span[@class = '' and contains (text(), 'Export')]");
+    private By exportButton = By.xpath("//footer/span[2]");
 
     public ExportExcellBlock(WebDriver driver) {
 
