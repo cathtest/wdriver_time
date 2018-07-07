@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/blocks/ControlPanelBlock.class" afterPath="$PROJECT_DIR$/out/production/classes/blocks/ControlPanelBlock.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/blocks/TableJournalBlock.class" afterPath="$PROJECT_DIR$/out/production/classes/blocks/TableJournalBlock.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/TestClass.class" afterPath="$PROJECT_DIR$/out/test/classes/TestClass.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java" afterPath="$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blocks/ProjectsBlock.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java" afterPath="$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,14 +21,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
-                <element signature="e#12664#12665#0" expanded="true" />
-                <element signature="e#12693#12694#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#12631#12632#0" expanded="true" />
+                <element signature="e#12660#12661#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControlPanelBlock.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ControlPanelBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -519,10 +513,10 @@
         <option value="$PROJECT_DIR$/src/main/java/blocks/LoginBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/Calendar.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/ExportExcellBlock.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/ProjectsBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
       </list>
     </option>
   </component>
@@ -1068,8 +1062,9 @@
         <state relative-caret-position="3435">
           <caret line="242" column="76" lean-forward="false" selection-start-line="242" selection-start-column="76" selection-end-line="242" selection-end-column="76" />
           <folding>
-            <element signature="e#12664#12665#0" expanded="true" />
-            <element signature="e#12693#12694#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#12631#12632#0" expanded="true" />
+            <element signature="e#12660#12661#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1136,8 +1131,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#12664#12665#0" expanded="true" />
-            <element signature="e#12693#12694#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#12631#12632#0" expanded="true" />
+            <element signature="e#12660#12661#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1211,8 +1207,9 @@
         <state relative-caret-position="135">
           <caret line="9" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
-            <element signature="e#12664#12665#0" expanded="true" />
-            <element signature="e#12693#12694#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#12631#12632#0" expanded="true" />
+            <element signature="e#12660#12661#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1236,8 +1233,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#12664#12665#0" expanded="true" />
-            <element signature="e#12693#12694#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#12631#12632#0" expanded="true" />
+            <element signature="e#12660#12661#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1336,17 +1334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#12664#12665#0" expanded="true" />
-            <element signature="e#12693#12694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ProjectsBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1401,6 +1388,18 @@
             <element signature="e#2092#2093#0" expanded="true" />
             <element signature="e#2138#2139#0" expanded="true" />
             <element signature="e#2193#2194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12631#12632#0" expanded="true" />
+            <element signature="e#12660#12661#0" expanded="true" />
           </folding>
         </state>
       </provider>

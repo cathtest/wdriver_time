@@ -16,7 +16,6 @@ public class TestClass {
     private static final String USER_NAME = "katsiaryna_hrynchuk@epam.com";
     private static final String PASSWORD = "Fentfebel4";
     private WebDriver driver;
-    ProjectsBlock projectsBlock;
     TableJournalBlock tableJournalBlock;
     ControlPanelBlock controlPanelBlock;
     LoginBlock loginBlock;
