@@ -14,7 +14,6 @@ public class LoginBlock {
 
         this.driver = driver;
     }
-
     public WebElement getNameField() {
 
         return driver.findElement(nameField);

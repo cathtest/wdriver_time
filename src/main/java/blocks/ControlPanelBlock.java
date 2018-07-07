@@ -24,14 +24,16 @@ public class ControlPanelBlock {
     private By switchTimePeriodButton = By.xpath("//a[@class='switch-item'][1]");
     private By todayButton = By.id("goto-today");
 
-
     public ControlPanelBlock(WebDriver driver) {
+
         this.driver = driver;
     }
     public WebElement getCellFilled(){
+
         return driver.findElement(cellFilled);
     }
     public WebElement getSelectProjectBtn(){
+
         return driver.findElement(selectProjectBtn);
     }
     public WebElement getSearchField() {
@@ -48,9 +50,11 @@ public class ControlPanelBlock {
         return driver.findElement(searchButton);
     }
     public List<WebElement> getProjectNameCellList(){
+
         return driver.findElements(projectNameCellList);
     }
     public List<WebElement> getProjectList(){
+
         return driver.findElements(projectList);
     }
     public WebElement getMonthsView() {
@@ -81,6 +85,5 @@ public class ControlPanelBlock {
 
         return driver.findElement(todayButton);
     }
-
 }
 //input[@class='changed']/../div[@class='table-week']
