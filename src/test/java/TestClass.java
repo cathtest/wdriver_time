@@ -1,5 +1,4 @@
 import blocks.*;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -106,6 +105,7 @@ public class TestClass {
     public void checkThatTotalTimeIsChanged(){
         controlPanelBlock.getMonthsView().click();
         String totalTimeBeforeChanges = tableJournalBlock.getTotalHours().getText();
+        tableJournalBlock.getAddActivityButton().get(0).click();
         tableJournalBlock.getActivityField().sendKeys("Some test activity");
         tableJournalBlock.getTodayCell().sendKeys("1");
         controlPanelBlock.getSaveHoursButton().click();
@@ -189,8 +189,7 @@ public class TestClass {
         LogManager.info("Checking search works correclty");
         Assert.assertEquals(resultSearchName, someName, "Search results do not coincide");
     }
-    @Test (expectedExceptions = StaleElementReferenceException.class,
-            description =
+    @Test (description =
             "\n 1. Open time.epam.com" +
             "\n 2. Click on Add activity button" +
             "\n 3. Enter activity name in the field" +
@@ -206,11 +205,10 @@ public class TestClass {
         });
             driver.navigate().refresh();
             LogManager.info("Checking data is not saved after refreshing the page");
-        Assert.assertFalse(tableJournalBlock.getWorkingDaysList().isEmpty(),  "There was an error, the field stays filled");
+        Assert.assertTrue(tableJournalBlock.getWorkingDaysList().isEmpty(),  "There was an error, the field stays filled");
     }
 
-    @Test (expectedExceptions = StaleElementReferenceException.class,
-            description =
+    @Test (description =
             "\n 1. Open time.epam.com" +
             "\n 2. Click on Add activity button" +
             "\n 3. Enter activity name in the field" +
@@ -232,11 +230,13 @@ public class TestClass {
             "\n 1. Open time.epam.com" +
             "\n 2. Click on Calendar button" +
             "\n 3. Choose the time range that is not equal to the current time range" +
-            "\n 4. Verify date on the calendar has been changed")
+            "\n 4. Click today button"+
+            "\n 5. Verify date on the calendar button stays the same as it was at the beginning")
     public void checkThatTodayButtonWorksCorrectly(){
         String dateBeforeSwitch = calendar.getCalendarButton().getText();
         calendar.getCalendarButton().click();
         calendar.getTimeRangeNotCurrent().click();
+        controlPanelBlock.getTodayButton().click();
         String dateAfterSwitch = calendar.getCalendarButton().getText();
         LogManager.info("Checking time range is changed");
         Assert.assertTrue(dateAfterSwitch.equals(dateBeforeSwitch), "There was an error, date hasn't been changed");
@@ -252,11 +252,11 @@ public class TestClass {
         calendar.getTimeRangeNotCurrent().click();
         String columnAfterSwitch = tableJournalBlock.getWorkingDayColumnDate().getText();
         LogManager.info("Checking the column has been changed");
-        Assert.assertFalse(columnBeforeSwitch.equals(columnAfterSwitch), "There was an error, date hasn't been changed");
+        Assert.assertFalse(columnBeforeSwitch == columnAfterSwitch, "There was an error, date hasn't been changed");
     }
 
     @AfterTest (description = "Stop Browser")
     public void stopBrowser(){
-        //driver.quit();
+        driver.quit();
     }
 }

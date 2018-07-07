@@ -9,17 +9,10 @@ import java.util.List;
 public class ControlPanelBlock {
 
     private WebDriver driver;
-
     private By projectNameCellList = By.xpath("//span[@class='project-name']");
-
-
     private By projectList = By.cssSelector("#choose-project-select > section > div> span");
-
     private By selectProjectBtn = By.id("choose-project-select");
-
     private By userSelectorButton = By.xpath("//figure[@class='user-photo-container']/../span[@class='name']");
-
-
     private By cellFilled = By.xpath("//div[@class='table-week']//input[@class='changed']");
     private By searchField = By.xpath("//input[@type='search']");
     private By searchButton = By.xpath("//div[@class='magnifying-glass']");
@@ -28,18 +21,9 @@ public class ControlPanelBlock {
     private By saveHoursButton = By.xpath("//nav[@class='controller-panel']//button[@class='green button']");
     private By cancelButton = By.xpath("//div//button[@class='white button' and contains (text(), 'CANCEL')]");
     private By teamMember = By.xpath("//article[@class='member']");
-    private By switchTimePeriodButton = By.xpath("//a[@class='switch-item']");
+    private By switchTimePeriodButton = By.xpath("//a[@class='switch-item'][1]");
+    private By todayButton = By.id("goto-today");
 
-
-    private By week1Btn = null;
-
-    private By week2Btn = null;
-
-    private By mounthBtn = null;
-
-    private By cancelBtn = null;
-
-    private By saveBtn = null;
 
     public ControlPanelBlock(WebDriver driver) {
         this.driver = driver;
@@ -92,6 +76,10 @@ public class ControlPanelBlock {
     public WebElement getUserSelectorButton() {
 
         return driver.findElement(userSelectorButton);
+    }
+    public WebElement getTodayButton() {
+
+        return driver.findElement(todayButton);
     }
 
 }
