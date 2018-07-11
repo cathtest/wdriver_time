@@ -13,7 +13,7 @@ public class TableJournalBlock {
     private By activityField = By.xpath("//div[@class='table-activity-name']/input");
     private By todayCell = By.xpath("//div[@class='table-activity-cell cell today']/input");
     private By totalHours = By.cssSelector("#total-reported-period");
-    private By workingDayColumnDate = By.xpath("//div[@class='journal-day cell'][1]");
+    private By workingDayColumnDate = By.cssSelector("div.journal-day.cell:nth-of-type(1)");
     public TableJournalBlock(WebDriver driver) {
 
         this.driver = driver;

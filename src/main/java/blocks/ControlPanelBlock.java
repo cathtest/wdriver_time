@@ -16,7 +16,7 @@ public class ControlPanelBlock {
     private By cellFilled = By.xpath("//div[@class='table-week']//input[@class='changed']");
     private By searchField = By.xpath("//input[@type='search']");
     private By searchButton = By.xpath("//div[@class='magnifying-glass']");
-    private By someUserName = By.xpath("//span[@class='full-name']");
+    private By someUserName = By.cssSelector("span.full-name:nth-of-type(1)");
     private By monthsView = By.xpath("//a[@class='switch-item' and contains (text(), 'month')]");
     private By saveHoursButton = By.xpath("//nav[@class='controller-panel']//button[@class='green button']");
     private By cancelButton = By.xpath("//div//button[@class='white button' and contains (text(), 'CANCEL')]");
@@ -40,9 +40,9 @@ public class ControlPanelBlock {
 
         return driver.findElement(searchField);
     }
-    public List<WebElement> getSomeUserNameList() {
+    public WebElement getSomeUserName() {
 
-        return driver.findElements(someUserName);
+        return driver.findElement(someUserName);
     }
 
     public WebElement getSearchButton() {
@@ -86,4 +86,3 @@ public class ControlPanelBlock {
         return driver.findElement(todayButton);
     }
 }
-//input[@class='changed']/../div[@class='table-week']

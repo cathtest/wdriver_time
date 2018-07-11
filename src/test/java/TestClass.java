@@ -68,12 +68,6 @@ public class TestClass {
             "\n 4. Get text from the first project in the table" +
             "\n 5. Compare the project names")
     public void checkThatProjectsInProjectListAreShownOnTheDashboard() {
-//        driver.findElement(By.cssSelector("#choose-project-select")).click();
-//        WebElement projectDropDown = projectsBlock.getProjectNameLocator();
-//        WebElement projectCell = projectsBlock.getProjectNameCell();
-//        String textProjectDropDown = projectDropDown.getText();
-//        String textProjectCell = projectCell.getText();
-//        LogManager.info("Checking that the project from drop down list coincides with the project from the table");
         controlPanelBlock.getSelectProjectBtn().click();
         for (int i = 1; i < controlPanelBlock.getProjectList().size(); i++) {
             String textProjectDropDown = controlPanelBlock.getProjectList().get(i).getText();
@@ -85,12 +79,13 @@ public class TestClass {
     @Test(description =
             "\n 1. Open time.epam.com" +
             "\n 2. Go to month view" +
-            "\n 3. get user total reported time")
-    public void total(){
+            "\n 3. Get user's total reported time")
+    public void checkCurrentUserFilledTime() {
         controlPanelBlock.getMonthsView().click();
-        WebElement total = tableJournalBlock.getTotalHours();
-        LogManager.info("Checking whether User has filled his time or not");
-        Assert.assertEquals(total.getText(), "Total 168/168", "The hours do not coincide");
+        String totalForCurrentUser = tableJournalBlock.getTotalHours().getText();
+        String regEx = "^Total\\s((152)\\W)(?=152)|((160)\\W)(?=160)|((168)\\W)(?=168)";
+        Assert.assertTrue(totalForCurrentUser.matches(regEx), "You haven't filled all the hours");
+
     }
 
     @Test(description =
@@ -122,20 +117,18 @@ public class TestClass {
             "\n 4.2 get user total reported time")
     public void checkThatAllUsersAreAvailableAndThersTotalHours() {
         controlPanelBlock.getMonthsView().click();
-        WebElement total = tableJournalBlock.getTotalHours();
-        total.getText();
         controlPanelBlock.getUserSelectorButton().click();
         int QuantityOfTeamMembers = 89;
-
+        String regEx = "^Total\\s((152)\\W)(?=152)|((160)\\W)(?=160)|((168)\\W)(?=168)";
         for (int i = 0; i < QuantityOfTeamMembers; i++) {// todo dynamic
             controlPanelBlock.getTeamMember().get(i).click();
-            int totalHoursForUser = extractInt(tableJournalBlock.getTotalHours().getText());
+            String totalHoursForUser = tableJournalBlock.getTotalHours().getText();
             controlPanelBlock.getUserSelectorButton().click();
             List<WebElement> list = controlPanelBlock.getTeamMember();
 
             for (WebElement element: list) {
                 LogManager.info("Checking certain user has reported his time");
-                Assert.assertEquals(totalHoursForUser, 168, "Something went wrong");
+                Assert.assertTrue(totalHoursForUser.matches(regEx), "User hasn't filled his time");
             }
         }
     }
@@ -174,6 +167,7 @@ public class TestClass {
         LogManager.info("Checking time range has been changed");
         Assert.assertFalse(totalTimeBeforeChanges == totalTimeAfterChanges);
     }
+
     @Test (description =
             "\n 1. Open time.epam.com" +
             "\n 2. Click the Current User button at the top left corner" +
@@ -186,7 +180,7 @@ public class TestClass {
         controlPanelBlock.getSearchButton().click();
         controlPanelBlock.getSearchField().sendKeys(someName);
         Sleeper.sleep(2);
-        String resultSearchName = controlPanelBlock.getSomeUserNameList().get(0).getText();
+        String resultSearchName = controlPanelBlock.getSomeUserName().getText();
         System.out.println(resultSearchName);
         LogManager.info("Checking search works correclty");
         Assert.assertEquals(resultSearchName, someName, "Search results do not coincide");
@@ -228,6 +222,7 @@ public class TestClass {
         LogManager.info("Checking data is not saved after clicking Cancel button");
         Assert.assertTrue(tableJournalBlock.getWorkingDaysList().isEmpty(), "There was an error, the field stays filled");
     }
+
     @Test (description =
             "\n 1. Open time.epam.com" +
             "\n 2. Click on Calendar button" +
@@ -243,6 +238,7 @@ public class TestClass {
         LogManager.info("Checking time range is changed");
         Assert.assertTrue(dateAfterSwitch.equals(dateBeforeSwitch), "There was an error, date hasn't been changed");
     }
+    
     @Test (description =
             "\n 1. Open time.epam.com" +
             "\n 2. Click on Calendar button" +
