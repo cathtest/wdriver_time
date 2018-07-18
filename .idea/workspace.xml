@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="test" />
+    <list default="true" id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/logics/CalendarLogics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/logics/CalendarLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logics/CalendarLogic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,8 +29,8 @@
       <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="429" column="52" selection-start-line="429" selection-start-column="52" selection-end-line="429" selection-end-column="52" />
+            <state relative-caret-position="324">
+              <caret line="418" column="4" lean-forward="true" selection-start-line="418" selection-start-column="4" selection-end-line="418" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,12 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalendarLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logics/CalendarLogic.java">
+      <file leaf-file-name="CalendarLogics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/logics/CalendarLogics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="240">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
                 <element signature="e#270#271#0" expanded="true" />
                 <element signature="e#304#305#0" expanded="true" />
@@ -120,7 +128,7 @@
       <file leaf-file-name="ControlPanelBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1660">
+            <state relative-caret-position="966">
               <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -260,7 +268,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -506,13 +514,14 @@
         <option value="$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/ExportExcellBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ExportExcelPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logics/CalendarLogic.java" />
         <option value="$PROJECT_DIR$/src/main/java/blocks/Calendar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logics/CalendarLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logics/CalendarLogics.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="324" />
     <option name="y" value="72" />
     <option name="width" value="1243" />
@@ -841,59 +850,59 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 12h 16m 29s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 10h 46m 29s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 12h 23m 39s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 10h 47m 20s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 16h 16m 05s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 10h 48m 09s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 16h 18m 19s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 10h 49m 08s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 16h 20m 34s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 10h 52m 44s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 16h 20m 51s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 10h 53m 04s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 16h 22m 19s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 10h 56m 05s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 16h 24m 01s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 10h 58m 28s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 16h 39m 49s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 11h 04m 25s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.17 at 16h 54m 55s.xml">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.07.18 at 11h 04m 30s.xml">
       <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="324" y="72" width="1243" height="826" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32270408" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32198444" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3125" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22859922" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" x="627" y="46" width="346" height="767" id="Project" order="0" sideWeight="0.6731141" visible="true" weight="0.39581656" />
+      <window_info content_ui="combo" x="627" y="46" width="346" height="767" id="Project" order="0" sideWeight="0.6733922" visible="true" weight="0.25625" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.30393198" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.23214285" />
       <window_info anchor="right" id="Gradle" order="5" />
-      <window_info id="Structure" order="1" sideWeight="0.32688588" side_tool="true" visible="true" weight="0.39581656" />
+      <window_info id="Structure" order="1" sideWeight="0.32660782" side_tool="true" visible="true" weight="0.25625" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -1285,26 +1294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1660">
-          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3223#3224#0" expanded="true" />
-            <element signature="e#3252#3253#0" expanded="true" />
-            <element signature="e#3292#3293#0" expanded="true" />
-            <element signature="e#3331#3332#0" expanded="true" />
-            <element signature="e#2493#2494#0" expanded="true" />
-            <element signature="e#2528#2529#0" expanded="true" />
-            <element signature="e#2505#2506#0" expanded="true" />
-            <element signature="e#2547#2548#0" expanded="true" />
-            <element signature="e#3779#3780#0" expanded="true" />
-            <element signature="e#3821#3822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blocks/WarningMessagesBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1354,19 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logics/CalendarLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blocks/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -1400,10 +1376,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3223#3224#0" expanded="true" />
+            <element signature="e#3252#3253#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
+            <element signature="e#3331#3332#0" expanded="true" />
+            <element signature="e#2493#2494#0" expanded="true" />
+            <element signature="e#2528#2529#0" expanded="true" />
+            <element signature="e#2505#2506#0" expanded="true" />
+            <element signature="e#2547#2548#0" expanded="true" />
+            <element signature="e#3779#3780#0" expanded="true" />
+            <element signature="e#3821#3822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logics/CalendarLogics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="429" column="52" selection-start-line="429" selection-start-column="52" selection-end-line="429" selection-end-column="52" />
+        <state relative-caret-position="324">
+          <caret line="418" column="4" lean-forward="true" selection-start-line="418" selection-start-column="4" selection-end-line="418" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
