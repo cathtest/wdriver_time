@@ -55,7 +55,7 @@ public class TableJournalBlock extends DefaultPage {
     }
 
     public List<WebElement> getWorkingDaysList() {
-        return (List<WebElement>) workingDays;
+        return  workingDays;
     }
 
     public List<WebElement> getAddActivityButtonList() {

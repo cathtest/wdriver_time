@@ -1,8 +1,11 @@
 package blocks;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import pages.DefaultPage;
+
+import java.util.List;
 
 public class Calendar extends DefaultPage {
 
@@ -38,6 +41,9 @@ public class Calendar extends DefaultPage {
 
     @FindBy(css = "span.next")
     private WebElement rightArrow;
+
+    @FindBy(css = "div.year-item")
+    private List <WebElement> yearsList;
 
 
     public Calendar(WebDriver driver) {
@@ -83,7 +89,12 @@ public class Calendar extends DefaultPage {
     public WebElement getLeftArrow() {
         return leftArrow;
     }
+
     public WebElement getRightArrow() {
         return rightArrow;
+    }
+
+    public List<WebElement> getYearsList() {
+        return (List<WebElement>)yearsList;
     }
 }

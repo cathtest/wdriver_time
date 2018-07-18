@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import pages.DefaultPage;
 
 public class OvertimeCancellingPage extends DefaultPage {
+
     @FindBy(css = "footer>button.green.button")
     private WebElement cancelOvertimeButton;
 

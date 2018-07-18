@@ -11,10 +11,10 @@ import java.util.List;
 
 public class ControlPanelBlock extends DefaultPage {
 
-    @FindAll(@FindBy(xpath = "//span[@class='project-name']"))
+    @FindBy(xpath = "//span[@class='project-name']")
     private List<WebElement> projectNameCellList;
 
-    @FindAll(@FindBy(css = "#choose-project-select > section > div> span"))
+    @FindBy(css = "#choose-project-select > section > div> span")
     private List<WebElement> projectList;
 
     @FindBy(id = "choose-project-select")
@@ -102,10 +102,11 @@ public class ControlPanelBlock extends DefaultPage {
 
         return monthsView;
     }
-    public WebElement getSaveHoursButton() {
 
+    public WebElement getSaveHoursButton() {
         return saveHoursButton;
     }
+
     public WebElement getCancelButton() {
 
         return cancelButton;

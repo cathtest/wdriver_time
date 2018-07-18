@@ -1,57 +1,14 @@
-import blocks.*;
-import logics.CalendarLogics;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import pages.ExportExcelPage;
-import pages.LoginPage;
-import pages.OvertimeCancellingPage;
 import utils.LogManager;
 import utils.Sleeper;
+import unit.TestCase;
+
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class TestClass {
-    private static final String START_URL = "https://time.epam.com";
-    private static final String USER_NAME = "katsiaryna_hrynchuk@epam.com";
-    private static final String PASSWORD = "Fentfebel4";
-    private WebDriver driver;
-    private TableJournalBlock tableJournalBlock;
-    ControlPanelBlock controlPanelBlock;
-    LoginPage loginPage;
-    ExportExcelPage exportExcelPage;
-    Calendar calendar;
-    CalendarLogics calendarLogic;
-    OvertimeCancellingPage overtimeCancelling;
-    WarningMessagesBlock warningMessages;
-
-    @BeforeMethod(description = "Start Browser + login")
-    public void startBrowser() {
-        LogManager.info("Start browser");
-        System.setProperty("webdriver.chrome.driver", "/Users/katsiaryna_hrynchuk/Downloads/chromedriver");
-        driver = new ChromeDriver();
-        tableJournalBlock = new TableJournalBlock(driver);
-        controlPanelBlock = new ControlPanelBlock(driver);
-        loginPage = new LoginPage(driver);
-        calendar = new Calendar(driver);
-        calendarLogic = new CalendarLogics(calendar);
-        exportExcelPage = new ExportExcelPage(driver);
-        warningMessages = new WarningMessagesBlock(driver);
-        overtimeCancelling = new OvertimeCancellingPage(driver);
-        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-        LogManager.info("Browser started");
-        LogManager.info("Login");
-        driver.get(START_URL);
-        driver.manage().window().maximize();
-        loginPage.getNameField().click();
-        loginPage.getNameField().sendKeys(USER_NAME);
-        loginPage.getPasswordField().click();
-        loginPage.getPasswordField().sendKeys(PASSWORD);
-        loginPage.getSubmitButton().click();
-    }
+public class TestClass extends TestCase {
 
     @Test(description =
             "\n 1. Open time.epam.com" +
@@ -402,38 +359,27 @@ public class TestClass {
 
     @Test(description =
             "\n 1. Open time.epam.com" +
-                    "\n 2. Click on Calendar" +
-                    "\n 3. Click on Calendar month view" +
-                    "\n 4. Click on Calendar year view" +
-                    "\n 5. Click on left arrow till the seventies appear " +
-                    "\n 6. Choose the first year on the list" +
-                    "\n 7. Choose the first month on the list" +
-                    "\n 8. Choose the first time range on the list" +
-                    "\n 9. Click on User's list" +
-                    "\n 10. Verify 'You have no project team members to be reviewed' text is displayed")
+            "\n 2. Click on Calendar" +
+            "\n 3. Click on Calendar month view" +
+            "\n 4. Click on Calendar year view" +
+            "\n 5. Click on left arrow till the seventies appear " +
+            "\n 6. Choose the first year on the list" +
+            "\n 7. Choose the first month on the list" +
+            "\n 8. Choose the first time range on the list" +
+            "\n 9. Click on User's list" +
+            "\n 10. Verify 'You have no project team members to be reviewed' text is displayed")
     public void checkThereIsNoProjectAvailableForInvalidTimePeriod() {
         calendar.getCalendarButton().click();
         calendarLogic.openMonthView();
         calendarLogic.openYearView();
-        calendarLogic.openYear(2048);
-
-//        String year = "1977";
-//        String forLoop = calendar.getLeftCornerYear().getText();
-//        while(forLoop.equals(year)){//todo remove
-//            calendar.getLeftArrow().click();
-//        }
-//        calendar.getLeftCornerYear().click();
-//        calendar.getTheFirstMonth().click();
-//        calendar.getTimeRangeNotCurrent().click();
-//
+        calendarLogic.openYear(1998);
+        calendar.getTheFirstMonth().click();
+        calendar.getTimeRangeNotCurrent().click();
         controlPanelBlock.getUserSelectorButton().click();
         String noProjectText = controlPanelBlock.getNoProjectAvailableMessage().getText();
         LogManager.info("Checking projects members are not available");
         Assert.assertEquals(noProjectText,"You have no project team members to be reviewed","There was an error, the text has been changed or projects stay available for invalid time period");
 }
-
-
-
 
     @Test(description =
             "\n 1. Open time.epam.com" +
