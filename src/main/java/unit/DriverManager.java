@@ -8,14 +8,16 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import sun.security.krb5.internal.crypto.Des;
 
+import java.io.FileReader;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Properties;
 
 
 public class DriverManager {
 
     private static DriverManager _instance;
-
+    private  String remoteUrl;
 
     public static DriverManager getInstance() {
         if (_instance == null) {
@@ -42,8 +44,18 @@ public class DriverManager {
 
     @Parameters({ "browserName"})
     void createDriver(String browserName){
+
+        try(FileReader reader = new FileReader("keys.properties")){
+            Properties properties = new Properties();
+            properties.load(reader);
+            remoteUrl = properties.getProperty("remoteUrl");
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+
         try {
-            this.driver =  new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), cap(browserName));
+            this.driver =  new RemoteWebDriver(new URL(remoteUrl), cap(browserName));
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }

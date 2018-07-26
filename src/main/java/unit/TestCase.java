@@ -18,8 +18,6 @@ public class TestCase {
     private String START_URL;
     private  String USER_NAME;
     private  String PASSWORD;
-    private String driverType;
-    private String driverPath;
 
     protected CalendarLogics calendarLogics;
     protected ExportExcelService exportExcelService;
@@ -33,7 +31,6 @@ public class TestCase {
     protected SideBar sideBar;
 
 
-
     @BeforeMethod (description = "Initializing variables from properties", groups = "first")
     public void initProperties(){
         try(FileReader reader = new FileReader("keys.properties")){
@@ -42,8 +39,7 @@ public class TestCase {
             START_URL = properties.getProperty("START_URL");
             USER_NAME = properties.getProperty("USER_NAME");
             PASSWORD = properties.getProperty("PASSWORD");
-            driverType = properties.getProperty("driverType");
-            driverPath = properties.getProperty("driverPath");
+
         }catch(Exception e){
             e.printStackTrace();
         }
