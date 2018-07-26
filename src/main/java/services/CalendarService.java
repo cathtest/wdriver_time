@@ -64,6 +64,7 @@ public class CalendarService {
     public void calendarButtonHighlight(){
         calendar.highlightElement(calendar.getCalendarButton());
     }
+
     public void calendarButtonUnhighlight(){
         calendar.unHighlightElement(calendar.getCalendarButton());
     }
