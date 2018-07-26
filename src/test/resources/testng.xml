@@ -1,0 +1,61 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "All Suites" thread-count="1" parallel="tests">
+    <test name = "Tests0">
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="remoteurl" value="http://192.168.56.1:5557/wd/hub"></parameter>
+        <classes>
+            <class name ="TestClass">
+                <methods>
+                    <include name="checkMouseState"></include>
+                    <include name="checkHelpCanBeOpenedViaTab"></include>
+                    <include name="checkMonthViewIsPreserved"></include>
+                    <include name="checkThereIsNoProjectAvailableForInvalidTimePeriod"></include>
+                    <include name="checkExportUnavailableForMoreThanYearPeriod"></include>
+                    <include name="checkTwoEqualActivitiesCannotBeAdded"></include>
+                    <include name="checkDateIsPreservedAfterSwitchingToAnotherTimeRange"></include>
+                    <include name="checkTableIsShownAccordingToCalendarWeek"></include>
+                    <include name="checkTodayButtonWorksCorrectly"></include>
+                    <include name="checkDataNotSavedAfterClickingCancel"></include>
+                    <include name="checkDataNotSavedAfterRefreshingPage"></include>
+                    <include name="checkUserSearchIsCorrect"></include>
+                    <include name="checkTwoWeeksButtonWorksCorrectly"></include>
+                    <include name="exportExcel"></include>
+                    <include name="checkAllUsersAreAvailableAndThersTotalHours"></include>
+                    <include name="checkTotalTimeIsChanged"></include>
+                    <include name="checkCurrentUserFilledTime"></include>
+                    <include name="checkProjectsInProjectListAreShownOnTheDashboard"></include>
+                    <include name="checkAddHoursWorkCorrectly"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Tests1">
+        <parameter name="browserName" value="internet explorer"></parameter>
+        <parameter name="remoteurl" value="http://192.168.56.1:5556/wd/hub"></parameter>
+        <classes>
+            <class name ="TestClass">
+                <methods>
+                    <include name="checkMouseState"></include>
+                    <include name="checkHelpCanBeOpenedViaTab"></include>
+                    <include name="checkMonthViewIsPreserved"></include>
+                    <include name="checkThereIsNoProjectAvailableForInvalidTimePeriod"></include>
+                    <include name="checkExportUnavailableForMoreThanYearPeriod"></include>
+                    <include name="checkTwoEqualActivitiesCannotBeAdded"></include>
+                    <include name="checkDateIsPreservedAfterSwitchingToAnotherTimeRange"></include>
+                    <include name="checkTableIsShownAccordingToCalendarWeek"></include>
+                    <include name="checkTodayButtonWorksCorrectly"></include>
+                    <include name="checkDataNotSavedAfterClickingCancel"></include>
+                    <include name="checkDataNotSavedAfterRefreshingPage"></include>
+                    <include name="checkUserSearchIsCorrect"></include>
+                    <include name="checkTwoWeeksButtonWorksCorrectly"></include>
+                    <include name="exportExcel"></include>
+                    <include name="checkAllUsersAreAvailableAndThersTotalHours"></include>
+                    <include name="checkTotalTimeIsChanged"></include>
+                    <include name="checkCurrentUserFilledTime"></include>
+                    <include name="checkProjectsInProjectListAreShownOnTheDashboard"></include>
+                    <include name="checkAddHoursWorkCorrectly"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
