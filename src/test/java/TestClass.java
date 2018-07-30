@@ -7,7 +7,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import unit.DriverManager;
-import utils.LogManager;
 import utils.Sleeper;
 import unit.TestCase;
 import java.util.List;
