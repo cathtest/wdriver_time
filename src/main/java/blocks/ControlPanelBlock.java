@@ -64,7 +64,7 @@ public class ControlPanelBlock extends DefaultPage {
     private Button exportToExcelButton;
 
     @FindBy (css="div.member-info>span.full-name:nth-of-type(1)")
-    private List<TextBlock> userNameList;
+    private List<WebElement> userNameList;
 
 
     public WebElement getCellFilled(){
@@ -135,7 +135,7 @@ public class ControlPanelBlock extends DefaultPage {
         return exportToExcelButton;
     }
 
-    public  List<TextBlock> getUserNameList() {
+    public  List<WebElement> getUserNameList() {
         return userNameList;
     }
 

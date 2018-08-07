@@ -20,9 +20,10 @@ public class TestCase {
     protected ControlPanelService controlPanelService;
     protected TableJournalService tableJournalService;
     protected CalendarService calendarService;
+    protected FillingActivityService fillingCellsService;
     protected WarningMessagesService warningMessagesService;
     protected OvertimeCancellingService overtimeCancellingService;
-    private LoginService loginService;
+    protected LoginService loginService;
     protected LogManager logManager;
     private Properties properties;
     private User user;
@@ -72,12 +73,17 @@ public class TestCase {
         overtimeCancellingService = new OvertimeCancellingService();
         loginService = new LoginService();
         calendarLogics = new CalendarLogics();
+        fillingCellsService = new FillingActivityService();
+    }
+
+    @BeforeMethod(description = "Initializing business objects", groups = "fifth", dependsOnGroups = "third")
+    public void initBusinessObjects(){
+        user = new User();
     }
 
 
-    @BeforeMethod(description = "Logging in", groups = "fifth", dependsOnGroups = "forth")
+    @BeforeMethod(description = "Logging in", groups = "sixth", dependsOnGroups = "fifth")
     public void login(){
-        user = new User();
         logManager.loggingInfo("Logging in");
         loginService.nameFieldClick();
         loginService.nameFieldSendKeys(user.getUsername());
@@ -89,6 +95,6 @@ public class TestCase {
 
     @AfterTest(description = "Stop Browser")
     public void stopBrowser(){
-        DriverManager.getInstance().getDriver().quit();
+//        DriverManager.getInstance().getDriver().quit();
     }
 }

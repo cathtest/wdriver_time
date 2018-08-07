@@ -7,12 +7,12 @@ import utils.Sleeper;
 
 public class HighlightService {
     public void highlightElement(WebElement w) {
-        ((JavascriptExecutor) DriverManager.getInstance()).executeScript("arguments[0].style.border='2px solid red'", w);
+        ((JavascriptExecutor) DriverManager.getInstance().getDriver()).executeScript("arguments[0].style.border='2px solid red'", w);
         Sleeper.sleep(1);
     }
 
     public void unHighlightElement(WebElement w) {
-        ((JavascriptExecutor) DriverManager.getInstance()).executeScript("arguments[0].style.border='0px'", w);
+        ((JavascriptExecutor) DriverManager.getInstance().getDriver()).executeScript("arguments[0].style.border='0px'", w);
         Sleeper.sleep(1);
     }
 }

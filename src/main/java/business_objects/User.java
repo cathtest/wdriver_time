@@ -1,14 +1,11 @@
 package business_objects;
 
-import unit.StartProperties;
-
 import java.io.FileReader;
 import java.util.Properties;
 
 public class User {
     private String USER_NAME;
     private String PASSWORD;
-    private StartProperties startProperties;
     private Properties properties;
 
 
@@ -22,13 +19,13 @@ public class User {
         }
     }
 
-    public String getPassword(){
+    public String getUsername(){
         setUpProperties();
         USER_NAME = properties.getProperty("USER_NAME");
         return USER_NAME;
     }
 
-    public String getUsername(){
+    public String getPassword(){
         setUpProperties();
         PASSWORD = properties.getProperty("PASSWORD");
         return PASSWORD;

@@ -13,6 +13,7 @@ public class ControlPanelService {
 
     public ControlPanelService() {
         this.controlPanelBlock = new ControlPanelBlock();
+        this.highlightService = new HighlightService();
     }
 
     private ControlPanelBlock getControlPanelBlock(){

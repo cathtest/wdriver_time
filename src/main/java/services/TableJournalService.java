@@ -8,6 +8,7 @@ import unit.DriverManager;
 public class TableJournalService {
 
     private TableJournalBlock tableJournalBlock;
+    FillingActivityService fillingCellsService;
 
     public TableJournalService() {
         this.tableJournalBlock =  new TableJournalBlock();
@@ -21,15 +22,6 @@ public class TableJournalService {
         tableJournalBlock.getAddActivityButtonList().get(0).click();
     }
 
-//    public void sendKeysToTheActivity(String keys){
-//        tableJournalBlock.getActivityField().sendKeys(keys);
-//    }
-
-//    public void fillCells(String hours){
-//        tableJournalBlock.getWorkingDaysList().forEach(cell -> {
-//            cell.sendKeys(hours);
-//        });
-//    }
 
     public String getTextFromTotalHours(){
         return tableJournalBlock.getTotalHours().getText();
@@ -80,15 +72,6 @@ public class TableJournalService {
 
     public boolean checkWhetherOverTimeSumbittedCellIsDisplayed (){
         return tableJournalBlock.getOvertimeSubmitedCell().isDisplayed();
-    }
-
-    public void sendKeysToTheActivityJSE(WebElement we){
-        JavascriptExecutor jse = (JavascriptExecutor) DriverManager.getInstance().getDriver();
-        jse.executeScript("arguments[0].value='Daily sync-up';", we);
-    }
-
-    public void sendKeysToTheActivity(){
-        sendKeysToTheActivityJSE(tableJournalBlock.getActivityField());
     }
 
     public void fillCellsJSE(WebElement we){

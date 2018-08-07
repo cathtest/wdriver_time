@@ -14,6 +14,7 @@ public class CalendarService {
 
     public CalendarService() {
         this.calendar = new Calendar();
+        this.highlightService = new HighlightService();
     }
 
     public String getTextFromCalendarButton(){

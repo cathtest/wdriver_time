@@ -23,7 +23,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickOnTheFirstActivity();
 
         logManager.loggingInfo("Sending keys to the activity");
-        tableJournalService.sendKeysToTheActivity();
+        fillingCellsService.sendKeysToTheActivityFirstValue();
 
         logManager.loggingInfo("Filling cells");
         tableJournalService.fillCells();
@@ -91,7 +91,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        tableJournalService.sendKeysToTheActivity();
+        fillingCellsService.sendKeysToTheActivitySecondValue();
 
         logManager.loggingInfo("Logging hours for today");
         tableJournalService.logHoursForToday("1");
@@ -104,7 +104,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking that the total reported time has been changed after logging some new hours");
 
-        Assert.assertSame(totalTimeBeforeChanges, totalTimeAfterChanges);
+        Assert.assertNotSame(totalTimeBeforeChanges, totalTimeAfterChanges);
     }
 
     @Test(description =
@@ -227,7 +227,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        tableJournalService.sendKeysToTheActivity();
+        fillingCellsService.sendKeysToTheActivityThirdValue();
 
         logManager.loggingInfo("Filling cells with hours");
         tableJournalService.fillCells();
@@ -255,7 +255,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        tableJournalService.sendKeysToTheActivity();
+        fillingCellsService.sendKeysToTheActivityForthValue();
 
         logManager.loggingInfo("Filling cells with hours");
         tableJournalService.fillCells();
@@ -378,13 +378,13 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        tableJournalService.sendKeysToTheActivity();
+        fillingCellsService.sendKeysToTheActivityFifthValue();
 
         logManager.loggingInfo("Clicking activity button");
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending the same keys to the newly created activity");
-        tableJournalService.sendKeysToTheActivity();
+        fillingCellsService.sendKeysToTheActivityFifthValue();
 
         logManager.loggingInfo("Clicking Save button");
         controlPanelService.clickSaveHoursButton();
@@ -417,7 +417,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        tableJournalService.sendKeysToTheActivity();
+        fillingCellsService.sendKeysToTheActivitySeventhValue();
 
         logManager.loggingInfo("Filling cells with hours");
         tableJournalService.fillCells();
@@ -468,7 +468,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        tableJournalService.sendKeysToTheActivity();
+        fillingCellsService.sendKeysToTheActivityEighthValue();
 
         logManager.loggingInfo("Filling cells with hours");
         tableJournalService.fillCells();
