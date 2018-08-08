@@ -2,11 +2,11 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 import ru.yandex.qatools.htmlelements.element.TextBlock;
 import unit.DriverManager;
-import utils.Sleeper;
 import unit.TestCase;
+import utils.Sleeper;
 import java.util.List;
 
 public class TestClass extends TestCase {
@@ -23,10 +23,10 @@ public class TestClass extends TestCase {
         tableJournalService.clickOnTheFirstActivity();
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingCellsService.sendKeysToTheActivityFirstValue();
+        fillingActivityService.sendKeysToTheActivityFirstValue();
 
         logManager.loggingInfo("Filling cells");
-        tableJournalService.fillCells();
+        fillingHoursService.fillCells();
 
         logManager.loggingInfo("Checking how the cells are filled with hours and the activity field - with the name of the actvity");
 
@@ -91,7 +91,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingCellsService.sendKeysToTheActivitySecondValue();
+        fillingActivityService.sendKeysToTheActivitySecondValue();
 
         logManager.loggingInfo("Logging hours for today");
         tableJournalService.logHoursForToday("1");
@@ -114,7 +114,7 @@ public class TestClass extends TestCase {
             "\n 4. For each user: " +
             "\n 4.1 open user profile" +
             "\n 4.2 get user total reported time")
-    public void checkAllUsersAreAvailableAndThersTotalHours() {
+    public void checkAllUsersAreAvailableAndTheirTotalHours() {
         logManager.loggingInfo("Clicking to open Month view");
         controlPanelService.monthViewClick();
 
@@ -227,10 +227,10 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingCellsService.sendKeysToTheActivityThirdValue();
+        fillingActivityService.sendKeysToTheActivityThirdValue();
 
         logManager.loggingInfo("Filling cells with hours");
-        tableJournalService.fillCells();
+        fillingHoursService.fillCells();
 
         logManager.loggingInfo("Refreshing the page");
         DriverManager.getInstance().getDriver().navigate().refresh();
@@ -255,10 +255,10 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingCellsService.sendKeysToTheActivityForthValue();
+        fillingActivityService.sendKeysToTheActivityForthValue();
 
         logManager.loggingInfo("Filling cells with hours");
-        tableJournalService.fillCells();
+        fillingHoursService.fillCells();
 
         logManager.loggingInfo("Clicking Cancel button");
         controlPanelService.cancelButtonClick();
@@ -378,13 +378,13 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingCellsService.sendKeysToTheActivityFifthValue();
+        fillingActivityService.sendKeysToTheActivityFifthValue();
 
         logManager.loggingInfo("Clicking activity button");
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending the same keys to the newly created activity");
-        fillingCellsService.sendKeysToTheActivityFifthValue();
+        fillingActivityService.sendKeysToTheActivityFifthValue();
 
         logManager.loggingInfo("Clicking Save button");
         controlPanelService.clickSaveHoursButton();
@@ -417,10 +417,10 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingCellsService.sendKeysToTheActivitySeventhValue();
+        fillingActivityService.sendKeysToTheActivitySixthValue();
 
         logManager.loggingInfo("Filling cells with hours");
-        tableJournalService.fillCells();
+        fillingHoursService.fillCells();
 
         logManager.loggingInfo("Clicking Save hours button");
         controlPanelService.clickSaveHoursButton();
@@ -468,10 +468,10 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingCellsService.sendKeysToTheActivityEighthValue();
+        fillingActivityService.sendKeysToTheActivitySeventhValue();
 
         logManager.loggingInfo("Filling cells with hours");
-        tableJournalService.fillCells();
+        fillingHoursService.fillCells();
 
         logManager.loggingInfo("Clicking Save hours button");
         controlPanelService.clickSaveHoursButton();

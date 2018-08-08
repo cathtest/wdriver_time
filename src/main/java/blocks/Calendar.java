@@ -1,12 +1,11 @@
 package blocks;
-import org.openqa.selenium.JavascriptExecutor;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.DefaultPage;
 import ru.yandex.qatools.htmlelements.element.Button;
-import ru.yandex.qatools.htmlelements.element.TextBlock;
-import unit.DriverManager;
-import utils.Sleeper;
+import wrapped.Arrow;
+import wrapped.DateEntity;
 
 import java.util.List;
 
@@ -16,37 +15,38 @@ public class Calendar extends DefaultPage {
     private Button calendarButton;
 
     @FindBy(css = "div.item-day.in-current-month")
-    private TextBlock timeRangeNotCurrent;
+    private DateEntity timeRangeNotCurrent;
 
     @FindBy(css = "span.label")
-    private TextBlock anotherView;
+    private DateEntity anotherView;
 
     @FindBy(css = "div.year-item.selected+div.year-item")
-    private TextBlock theFollowingYear;
+    private DateEntity theFollowingYear;
 
     @FindBy(css = "div.month-item:nth-of-type(1)")
-    private TextBlock theFirstMonth;
+    private DateEntity theFirstMonth;
 
     @FindBy(xpath = "//div[@class='year-item selected']/preceding-sibling::*")
-    private TextBlock lastYear;
+    private DateEntity lastYear;
 
     @FindBy(css = "article.calendar-row:nth-of-type(3)>div.month-item:nth-of-type(4)")
-    private TextBlock lastMonth;
+    private DateEntity lastMonth;
 
     @FindBy(css = "article.calendar-row:nth-of-type(6)>div.item-day.in-current-month:nth-of-type(7)")
-    private TextBlock theFirstDay;
+    private DateEntity theFirstDay;
 
     @FindBy(xpath = "//article[@class='calendar-row'][1]/div[@class='year-item'][1]")
-    private TextBlock leftCornerYear;
+    private DateEntity leftCornerYear;
 
     @FindBy(css = "span.prev")
-    private TextBlock leftArrow;
+    private Arrow leftArrow;
 
     @FindBy(css = "span.next")
-    private TextBlock rightArrow;
+    private Arrow rightArrow;
 
     @FindBy(css = "div.year-item")
-    private List <TextBlock> yearsList;
+    private List <DateEntity> yearsList;
+
 
     public WebElement getCalendarButton() {
         return calendarButton;
@@ -72,16 +72,8 @@ public class Calendar extends DefaultPage {
         return lastYear;
     }
 
-    public WebElement getLastMonth() {
-        return lastMonth;
-    }
-
     public WebElement getTheFirstDay() {
         return theFirstDay;
-    }
-
-    public WebElement getLeftCornerYear() {
-        return leftCornerYear;
     }
 
     public WebElement getLeftArrow() {
@@ -92,7 +84,7 @@ public class Calendar extends DefaultPage {
         return rightArrow;
     }
 
-    public List<TextBlock> getYearsList() {
+    public List<DateEntity> getYearsList() {
         return yearsList;
     }
 

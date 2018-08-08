@@ -9,6 +9,7 @@ public class OvertimeCancellingPage extends DefaultPage {
     @FindBy(css = "footer>button.green.button")
     private Button cancelOvertimeButton;
 
+
     public WebElement getCancelOvertimeButton() {
         return cancelOvertimeButton;
     }

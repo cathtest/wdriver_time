@@ -9,7 +9,6 @@ public class User {
     private Properties properties;
 
 
-
     public void setUpProperties(){
         try(FileReader reader = new FileReader("keys.properties")){
             properties = new Properties();

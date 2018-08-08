@@ -1,10 +1,13 @@
 package unit;
+
 import business_objects.User;
 import logics.CalendarLogics;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import services.*;
 import utils.LogManager;
+import wrapped.DateEntity;
+
 import java.io.FileReader;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -20,10 +23,11 @@ public class TestCase {
     protected ControlPanelService controlPanelService;
     protected TableJournalService tableJournalService;
     protected CalendarService calendarService;
-    protected FillingActivityService fillingCellsService;
+    protected FillingActivityService fillingActivityService;
     protected WarningMessagesService warningMessagesService;
     protected OvertimeCancellingService overtimeCancellingService;
-    protected LoginService loginService;
+    protected FillingHoursService fillingHoursService;
+    private LoginService loginService;
     protected LogManager logManager;
     private Properties properties;
     private User user;
@@ -73,7 +77,8 @@ public class TestCase {
         overtimeCancellingService = new OvertimeCancellingService();
         loginService = new LoginService();
         calendarLogics = new CalendarLogics();
-        fillingCellsService = new FillingActivityService();
+        fillingActivityService = new FillingActivityService();
+        fillingHoursService = new FillingHoursService();
     }
 
     @BeforeMethod(description = "Initializing business objects", groups = "fifth", dependsOnGroups = "third")
@@ -95,6 +100,6 @@ public class TestCase {
 
     @AfterTest(description = "Stop Browser")
     public void stopBrowser(){
-//        DriverManager.getInstance().getDriver().quit();
+        DriverManager.getInstance().getDriver().quit();
     }
 }

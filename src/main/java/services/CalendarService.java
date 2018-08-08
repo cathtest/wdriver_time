@@ -1,9 +1,8 @@
 package services;
 
 import blocks.Calendar;
-import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.htmlelements.element.TextBlock;
-import unit.TestCase;
+import wrapped.DateEntity;
 
 import java.util.List;
 
@@ -12,10 +11,12 @@ public class CalendarService {
     private Calendar calendar;
     private HighlightService highlightService;
 
+
     public CalendarService() {
         this.calendar = new Calendar();
         this.highlightService = new HighlightService();
     }
+
 
     public String getTextFromCalendarButton(){
         return calendar.getCalendarButton().getText();
@@ -61,7 +62,7 @@ public class CalendarService {
         calendar.getLeftArrow().click();
     }
 
-    public List<TextBlock> getListOfYears(){
+    public List<DateEntity> getListOfYears(){
         return calendar.getYearsList();
     }
 

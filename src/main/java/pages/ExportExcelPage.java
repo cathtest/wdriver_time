@@ -3,19 +3,19 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.htmlelements.element.Button;
-import ru.yandex.qatools.htmlelements.element.HtmlElement;
-import ru.yandex.qatools.htmlelements.element.Table;
+import wrapped.Block;
+import wrapped.DateEntity;
 
-public class ExportExcelPage extends DefaultPage {
+public class ExportExcelPage extends DefaultPage{
 
     @FindBy (xpath = "//footer/span[2]")
     private Button exportButton;
 
     @FindBy (xpath = "//div[@class='date-input-block'][1]")
-    private Button rightCalendar;
+    private DateEntity rightCalendar;
 
     @FindBy(css = "div.billing-lock-unlock.billing-lock>header")
-    private HtmlElement exportBlock;
+    private Block exportBlock;
 
 
     public WebElement getExportButton() {

@@ -1,11 +1,8 @@
 package pages;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.htmlelements.element.Button;
 import ru.yandex.qatools.htmlelements.element.TextInput;
-
-import java.awt.*;
 
 public class LoginPage extends DefaultPage{
 
@@ -17,6 +14,7 @@ public class LoginPage extends DefaultPage{
 
     @FindBy(css = "span#submitButton.submit")
     private Button submitButton;
+
 
     public TextInput getNameField() {
         return nameField;

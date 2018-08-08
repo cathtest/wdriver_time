@@ -1,12 +1,13 @@
 package blocks;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.DefaultPage;
-import ru.yandex.qatools.htmlelements.element.*;
-import unit.DriverManager;
-import utils.Sleeper;
+import ru.yandex.qatools.htmlelements.element.Button;
+import ru.yandex.qatools.htmlelements.element.Table;
+import ru.yandex.qatools.htmlelements.element.TextBlock;
+import ru.yandex.qatools.htmlelements.element.TextInput;
+import wrapped.DateEntity;
 
 import java.util.List;
 
@@ -37,13 +38,13 @@ public class ControlPanelBlock extends DefaultPage {
     private Button todayButton;
 
     @FindBy(css = "div.period-switch.multi-switch>a.switch-item:nth-of-type(1)")
-    private TextBlock weekView;
+    private DateEntity weekView;
 
     @FindBy(css = "p.empty-state")
     private TextBlock noProjectAvailableMessage;
 
     @FindBy(css = "a.switch-item.active")
-    private TextBlock rangeViewSelected;
+    private DateEntity rangeViewSelected;
 
     @FindBy(xpath = "//div//button[@class='white button' and contains (text(), 'CANCEL')]")
     private Button cancelButton;
@@ -64,7 +65,7 @@ public class ControlPanelBlock extends DefaultPage {
     private Button exportToExcelButton;
 
     @FindBy (css="div.member-info>span.full-name:nth-of-type(1)")
-    private List<WebElement> userNameList;
+    private List<TextBlock> userNameList;
 
 
     public WebElement getCellFilled(){
@@ -135,7 +136,7 @@ public class ControlPanelBlock extends DefaultPage {
         return exportToExcelButton;
     }
 
-    public  List<WebElement> getUserNameList() {
+    public  List<TextBlock> getUserNameList() {
         return userNameList;
     }
 

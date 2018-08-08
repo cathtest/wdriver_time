@@ -6,9 +6,11 @@ public class ExportExcelService  {
 
     private ExportExcelPage exportExcelPage;
 
+
     public ExportExcelService() {
         this.exportExcelPage = new ExportExcelPage();
     }
+
 
     private ExportExcelPage getExportExcelPage(){
         return exportExcelPage;
@@ -29,17 +31,5 @@ public class ExportExcelService  {
     public boolean checkExportBlockIsDisplayed(){
         return exportExcelPage.getExportBlock().isDisplayed();
     }
-
-
-    //action
-
-    //click
-    //tap
-
-    //get text
-    //scroll
-
-    //get status checked is
-
 
 }

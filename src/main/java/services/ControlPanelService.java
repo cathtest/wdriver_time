@@ -3,7 +3,6 @@ package services;
 import blocks.ControlPanelBlock;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.htmlelements.element.TextBlock;
-
 import java.util.List;
 
 public class ControlPanelService {
@@ -11,10 +10,12 @@ public class ControlPanelService {
     private ControlPanelBlock controlPanelBlock;
     HighlightService highlightService;
 
+
     public ControlPanelService() {
         this.controlPanelBlock = new ControlPanelBlock();
         this.highlightService = new HighlightService();
     }
+
 
     private ControlPanelBlock getControlPanelBlock(){
         return controlPanelBlock;

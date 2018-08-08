@@ -27,7 +27,6 @@ public class WarningMessagesBlock extends DefaultPage {
         return goBackToYourPage;
     }
 
-
     public WebElement getWarningMessage() {
         return warningMessage;
     }

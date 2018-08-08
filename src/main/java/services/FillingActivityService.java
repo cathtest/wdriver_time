@@ -13,6 +13,7 @@ public class FillingActivityService {
     }
 
 
+
     public void sendKeysToTheActivityJSEFirstValue(WebElement we){
         JavascriptExecutor jse = (JavascriptExecutor) DriverManager.getInstance().getDriver();
         jse.executeScript("arguments[0].value='Daily meet';", we);
@@ -79,9 +80,5 @@ public class FillingActivityService {
 
     public void sendKeysToTheActivitySeventhValue(){
         sendKeysToTheActivityJSESeventhValue(tableJournalBlock.getActivityField());
-    }
-
-    public void sendKeysToTheActivityEighthValue(){
-        sendKeysToTheActivityJSEEighthValue(tableJournalBlock.getActivityField());
     }
 }

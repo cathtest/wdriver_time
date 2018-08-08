@@ -8,7 +8,7 @@ import unit.DriverManager;
 public class TableJournalService {
 
     private TableJournalBlock tableJournalBlock;
-    FillingActivityService fillingCellsService;
+
 
     public TableJournalService() {
         this.tableJournalBlock =  new TableJournalBlock();
@@ -72,16 +72,5 @@ public class TableJournalService {
 
     public boolean checkWhetherOverTimeSumbittedCellIsDisplayed (){
         return tableJournalBlock.getOvertimeSubmitedCell().isDisplayed();
-    }
-
-    public void fillCellsJSE(WebElement we){
-        JavascriptExecutor jse = (JavascriptExecutor) DriverManager.getInstance().getDriver();
-        jse.executeScript("arguments[0].value='0.5';", we);
-    }
-
-    public void fillCells(){
-        tableJournalBlock.getWorkingDaysList().forEach((cell -> {
-            fillCellsJSE(cell);
-        }));
     }
 }

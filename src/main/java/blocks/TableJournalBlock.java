@@ -1,39 +1,36 @@
 package blocks;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.DefaultPage;
 import ru.yandex.qatools.htmlelements.element.Button;
 import ru.yandex.qatools.htmlelements.element.Table;
 import ru.yandex.qatools.htmlelements.element.TextBlock;
-
-import java.awt.*;
+import ru.yandex.qatools.htmlelements.element.TextInput;
 import java.util.List;
 
 public class TableJournalBlock extends DefaultPage {
 
-    private WebDriver driver;
-
     @FindBy(xpath = "//span[@class='project-name']")
-    private List<WebElement> projectNameCellList;
+    private List<Table> projectNameCellList;
 
     @FindBy(xpath = "//div[@class='table-week']/div[not(contains(@class, 'not-workday'))]/input")
-    private List<WebElement> workingDays;
+    private List<Table> workingDays;
 
     @FindBy(xpath = "//div[@class='add-activity action']/i")
-    private List<WebElement> addActivityButton;
+    private List<Button> addActivityButton;
 
     @FindBy(xpath = "//div[@class='table-activity-name']/input")
-    private WebElement activityField;
+    private TextInput activityField;
 
     @FindBy(xpath = "//div[@class='table-activity-cell cell today']/input")
-    private WebElement todayCell;
+    private Table todayCell;
 
     @FindBy(css = "#total-reported-period")
-    private WebElement totalHours;
+    private TextInput totalHours;
 
     @FindBy(css = "div.journal-day.cell:nth-of-type(1)")
-    private WebElement workingDayColumnDate;
+    private Table workingDayColumnDate;
 
     @FindBy(xpath = "//div[@class='table-activity-cell cell']/input[not(text())][1]")
     private Table emptyCell;
@@ -54,16 +51,16 @@ public class TableJournalBlock extends DefaultPage {
     private TextBlock overtimeTableInfo;
 
 
-    public List<WebElement> getProjectNameCellList(){
+    public List<Table> getProjectNameCellList(){
         return projectNameCellList;
     }
 
-    public List<WebElement> getWorkingDaysList() {
+    public List<Table> getWorkingDaysList() {
         return  workingDays;
     }
 
-    public List<WebElement> getAddActivityButtonList() {
-        return (List<WebElement>) addActivityButton;
+    public List<Button> getAddActivityButtonList() {
+        return addActivityButton;
     }
 
     public WebElement getTodayCell() {
@@ -80,10 +77,6 @@ public class TableJournalBlock extends DefaultPage {
 
     public WebElement getWorkingDayColumnDate() {
         return workingDayColumnDate;
-    }
-
-    public WebElement getEmptyCell() {
-        return emptyCell;
     }
 
     public WebElement getOvertimeMode() {
