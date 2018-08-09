@@ -6,7 +6,7 @@ import ru.yandex.qatools.htmlelements.element.Button;
 import wrapped.Block;
 import wrapped.DateEntity;
 
-public class ExportExcelPage extends DefaultPage{
+public class ExportExcelPage extends DefaultPage {
 
     @FindBy (xpath = "//footer/span[2]")
     private Button exportButton;

@@ -30,7 +30,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking how the cells are filled with hours and the activity field - with the name of the actvity");
 
-        Assert.assertTrue(controlPanelService.checkWhetherCellIsFilled(), "The field is not filled");
+        Assert.assertTrue(controlPanelService.checkWhetherCellIsFilled(), logManager.loggingSevere("The field is not filled"));
     }
 
     @Test(description =
@@ -50,7 +50,7 @@ public class TestClass extends TestCase {
             String textProjectDropDown = controlPanelService.getTextFromProjectWithIndex(i);
             String textProjectCell = tableJournalService.getTextFromProjectCellWithIndex(i-1);
 
-            Assert.assertEquals(textProjectDropDown, textProjectCell, "Elements do not coincide");
+            Assert.assertEquals(textProjectDropDown, textProjectCell, logManager.loggingSevere("Elements do not coincide"));
         }
     }
 
@@ -68,7 +68,7 @@ public class TestClass extends TestCase {
 
         String regEx = "^Total\\s((152)\\W)(?=152)|((160)\\W)(?=160)|((168)\\W)(?=168)";
 
-        Assert.assertTrue(totalForCurrentUser.matches(regEx), "You haven't filled all the hours");
+        Assert.assertTrue(totalForCurrentUser.matches(regEx), logManager.loggingSevere("You haven't filled all the hours"));
 
     }
 
@@ -104,7 +104,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking that the total reported time has been changed after logging some new hours");
 
-        Assert.assertNotSame(totalTimeBeforeChanges, totalTimeAfterChanges);
+        Assert.assertNotSame(totalTimeBeforeChanges, totalTimeAfterChanges, logManager.loggingSevere("Time hasn't been updated!"));
     }
 
     @Test(description =
@@ -141,7 +141,7 @@ public class TestClass extends TestCase {
             listOfTeamMembers.forEach(member->{
                 logManager.loggingInfo("Checking certain user has reported his time");
 
-                Assert.assertTrue(totalHoursForUser.matches(regEx), "User hasn't filled his time"); }
+                Assert.assertTrue(totalHoursForUser.matches(regEx), logManager.loggingSevere("User hasn't filled his time")); }
             );
         }
     }
@@ -165,7 +165,7 @@ public class TestClass extends TestCase {
         String redirectURL = DriverManager.getInstance().getDriver().getCurrentUrl();
 
         logManager.loggingInfo("Checking export to Excel");
-        Assert.assertEquals(redirectURL, expectedURL, "Export button is not available");
+        Assert.assertEquals(redirectURL, expectedURL, logManager.loggingSevere("Export button is not available"));
     }
 
     @Test(description =
@@ -184,7 +184,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking time range has been changed");
 
-        Assert.assertSame(totalTimeBeforeChanges, totalTimeAfterChanges, "Time range hasn't been changed");
+        Assert.assertSame(totalTimeBeforeChanges, totalTimeAfterChanges, logManager.loggingSevere("Time range hasn't been changed"));
     }
 
     @Test(description =
@@ -211,7 +211,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking search works correclty");
 
-        Assert.assertEquals(resultSearchName, someName, "Search results do not coincide");
+        Assert.assertEquals(resultSearchName, someName, logManager.loggingSevere("Search results do not coincide"));
     }
 
     @Test(description =
@@ -238,7 +238,7 @@ public class TestClass extends TestCase {
         logManager.loggingInfo("Checking data is not saved after refreshing the page");
 
 
-        Assert.assertTrue(tableJournalService.checkWhetherWorkingDayListIsEmpty(), "There was an error, the field stays filled");
+        Assert.assertTrue(tableJournalService.checkWhetherWorkingDayListIsEmpty(), logManager.loggingSevere("There was an error, the field stays filled"));
 
     }
 
@@ -265,7 +265,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking data is not saved after clicking Cancel button");
 
-        Assert.assertTrue(tableJournalService.checkWhetherWorkingDayListIsEmpty(), "There was an error, the field stays filled");
+        Assert.assertTrue(tableJournalService.checkWhetherWorkingDayListIsEmpty(), logManager.loggingSevere("There was an error, the field stays filled"));
     }
 
     @Test(description =
@@ -292,7 +292,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking time range is changed");
 
-        Assert.assertEquals(dateBeforeSwitch, dateAfterSwitch, "There was an error, date hasn't been changed");
+        Assert.assertEquals(dateBeforeSwitch, dateAfterSwitch, logManager.loggingSevere("There was an error, date hasn't been changed"));
     }
 
     @Test(description =
@@ -315,7 +315,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking the column has been changed");
 
-        Assert.assertNotSame(columnBeforeSwitch, columnAfterSwitch, "There was an error, date hasn't been changed");
+        Assert.assertNotSame(columnBeforeSwitch, columnAfterSwitch, logManager.loggingSevere("There was an error, date hasn't been changed"));
     }
 
     @Test(description =
@@ -362,7 +362,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Verifying that time range is shown in accordance with the year and month chosen on Calendar");
 
-        Assert.assertNotEquals(dateBeforeYearSwitch, dateAfterYearSwitch, "Date is not preserved");
+        Assert.assertNotEquals(dateBeforeYearSwitch, dateAfterYearSwitch, logManager.loggingSevere("Date is not preserved"));
     }
 
     @Test(description =
@@ -397,7 +397,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking that the hours can't be added to the activity with the same name");
 
-        Assert.assertTrue(warningMessagesService.checkWarningMessageIsDisplayed(), "There was an error, the hours for the Activity with the same name have been added");
+        Assert.assertTrue(warningMessagesService.checkWarningMessageIsDisplayed(), logManager.loggingSevere("There was an error, the hours for the Activity with the same name have been added"));
     }
 
     @Test(description =
@@ -452,7 +452,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking that Overtime cells can be cancelled");
 
-        Assert.assertFalse(tableJournalService.checkWhetherOverTimeSumbittedCellIsDisplayed(), "Overtimes cannot be cancelled");
+        Assert.assertFalse(tableJournalService.checkWhetherOverTimeSumbittedCellIsDisplayed(), logManager.loggingSevere("Overtimes cannot be cancelled"));
     }
 
     @Test(description =
@@ -493,7 +493,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking Overtime hours are saved");
 
-        Assert.assertTrue(overtimeCheck.matches(regex), "Overtime hours are not saved");
+        Assert.assertTrue(overtimeCheck.matches(regex), logManager.loggingSevere("Overtime hours are not saved"));
     }
 
     @Test(description =
@@ -536,13 +536,13 @@ public class TestClass extends TestCase {
 
 
         logManager.loggingInfo("Verifying that the URLs got before and after clicking Export button are equal");
-        Assert.assertEquals(DriverManager.getInstance().getDriver().getCurrentUrl(), expectedURL, "There was an error: export is executed with the time range that is more than year");
+        Assert.assertEquals(DriverManager.getInstance().getDriver().getCurrentUrl(), expectedURL, logManager.loggingSevere("There was an error: export is executed with the time range that is more than year"));
 
         logManager.loggingInfo("Checking whether Export button is enabled");
-        Assert.assertFalse(exportExcelService.checkExportButtonIsEnabled(), "There is an issue, button is enabled");
+        Assert.assertFalse(exportExcelService.checkExportButtonIsEnabled(), logManager.loggingSevere("There is an issue, button is enabled"));
 
         logManager.loggingInfo("Checking whether Export block is shown itself");
-        Assert.assertTrue(exportExcelService.checkExportBlockIsDisplayed(), "There was an error, excel block is not shown!");
+        Assert.assertTrue(exportExcelService.checkExportBlockIsDisplayed(), logManager.loggingSevere("There was an error, excel block is not shown!"));
     }
 
     @Test(description =
@@ -597,7 +597,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking projects members are not available");
 
-        Assert.assertEquals(noProjectText,"You have no project team members to be reviewed","There was an error, the text has been changed or projects stay available for invalid time period");
+        Assert.assertEquals(noProjectText,"You have no project team members to be reviewed",logManager.loggingSevere("There was an error, the text has been changed or projects stay available for invalid time period"));
     }
 
     @Test(description =
@@ -629,7 +629,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Checking month view is preserved");
 
-        Assert.assertEquals(verifyActiveRangeBeforeSwitch, verifyActiveRangeAfterSwitch, "Month view is not preserved");
+        Assert.assertEquals(verifyActiveRangeBeforeSwitch, verifyActiveRangeAfterSwitch, logManager.loggingSevere("Month view is not preserved"));
     }
 
     @Test(description=
@@ -654,7 +654,7 @@ public class TestClass extends TestCase {
 
         logManager.loggingInfo("Verifying 'before' and 'after' colours");
 
-        Assert.assertNotEquals(colourBeforeMouseHover, colourAfterMouseHover, "The colour is not changed after moving to the element");
+        Assert.assertNotEquals(colourBeforeMouseHover, colourAfterMouseHover, logManager.loggingSevere("The colour is not changed after moving to the element"));
     }
 
 
@@ -683,6 +683,6 @@ public class TestClass extends TestCase {
         logManager.loggingInfo("Getting current URL");
         String urlAfterEnter = DriverManager.getInstance().getDriver().getCurrentUrl();
 
-        Assert.assertEquals(urlBeforeEnter, urlAfterEnter, "User is not redirected to kb page");
+        Assert.assertEquals(urlBeforeEnter, urlAfterEnter, logManager.loggingSevere("User is not redirected to kb page"));
     }
 }

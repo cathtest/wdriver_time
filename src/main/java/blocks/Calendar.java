@@ -6,7 +6,6 @@ import pages.DefaultPage;
 import ru.yandex.qatools.htmlelements.element.Button;
 import wrapped.Arrow;
 import wrapped.DateEntity;
-
 import java.util.List;
 
 public class Calendar extends DefaultPage {

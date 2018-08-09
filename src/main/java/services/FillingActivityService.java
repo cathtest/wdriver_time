@@ -49,11 +49,6 @@ public class FillingActivityService {
         jse.executeScript("arguments[0].value='Requirements';", we);
     }
 
-    public void sendKeysToTheActivityJSEEighthValue(WebElement we){
-        JavascriptExecutor jse = (JavascriptExecutor) DriverManager.getInstance().getDriver();
-        jse.executeScript("arguments[0].value='Investigation';", we);
-    }
-
     public void sendKeysToTheActivityFirstValue(){
         sendKeysToTheActivityJSEFirstValue(tableJournalBlock.getActivityField());
     }
