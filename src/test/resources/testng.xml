@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "All Suites">
+    <test name = "Tests">
+        <classes>
+        <class name ="TestClass">
+            <methods>
+                <include name="checkDataNotSavedAfterClickingCancel"/>
+                <include name="checkDataNotSavedAfterRefreshingPage"/>
+                <include name="checkHelpCanBeOpenedViaTab"/>
+                <include name="checkMouseState"/>
+                <include name="checkMonthViewIsPreserved"/>
+                <include name="checkThereIsNoProjectAvailableForInvalidTimePeriod"/>
+                <include name="checkExportUnavailableForMoreThanYearPeriod"/>
+                <include name="checkTwoEqualActivitiesCannotBeAdded"/>
+                <include name="checkDateIsPreservedAfterSwitchingToAnotherTimeRange"/>
+                <include name="checkTableIsShownAccordingToCalendarWeek"/>
+                <include name="checkTodayButtonWorksCorrectly"/>
+                <include name="checkUserSearchIsCorrect"/>
+                <include name="checkTwoWeeksButtonWorksCorrectly"/>
+                <include name="exportExcel"/>
+                <include name="checkAllUsersAreAvailableAndThersTotalHours"/>
+                <include name="checkTotalTimeIsChanged"/>
+                <include name="checkCurrentUserFilledTime"/>
+                <include name="checkProjectsInProjectListAreShownOnTheDashboard"/>
+                <include name="checkAddHoursWorkCorrectly"/>
+            </methods>
+        </class>
+    </classes>
+    </test>
+</suite>
