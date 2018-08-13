@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="test" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="675" column="5" lean-forward="true" selection-start-line="675" selection-start-column="5" selection-end-line="675" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FillingActivityServiceFifth.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/FillingActivityServiceFifth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calendar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/blocks/Calendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarLogics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/logics/CalendarLogics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-315">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/CalendarService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+              <folding>
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
+                <element signature="e#1547#1548#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControlPanelService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/ControlPanelService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <folding>
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#1545#1546#0" expanded="true" />
+                <element signature="e#2933#2934#0" expanded="true" />
+                <element signature="e#3003#3004#0" expanded="true" />
+                <element signature="e#3162#3163#0" expanded="true" />
+                <element signature="e#3226#3227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/unit/TestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextBlockCustom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/TextBlockCustom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextInputCustom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/TextInputCustom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkCustom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/LinkCustom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getpr</find>
+      <find>getPr</find>
+      <find>eac</find>
+      <find>list</find>
+      <find>getTe</find>
+      <find>timep</find>
+      <find>some</find>
+      <find>export</find>
+      <find>fille</find>
+      <find>todo</find>
+      <find>firs</find>
+      <find>89</find>
+      <find>each</find>
+      <find />
+      <find>startP</find>
+      <find>excel</find>
+      <find>select</find>
+      <find>checkExportUnavailableForMoreThanYearPeriod|checkTodayButtonWorksCorrectly|checkTwoWeeksButtonWorksCorrectly</find>
+      <find>Eight</find>
+      <find>send</find>
+      <find>left</find>
+      <find>fill</find>
+      <find>Arrow</find>
+      <find>cli</find>
+      <find>exportto</find>
+      <find>no</find>
+      <find>click</find>
+      <find>button</find>
+      <find>Button</find>
+      <find>Button</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="$PROJECT_DIR$/../gradle-4.7" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.7" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="time" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="time" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'time'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'time'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'time'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'time'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'time'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'time'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'time'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'time'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'time'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4602199560000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3005999161" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="609667488" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="time" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/ide" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/internal-integ-testing" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/platform-native" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/reporting" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/language-groovy" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/build-option" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/launcher" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/platform-base" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/announce" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/signing" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/core" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/installation-beacon" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/jvm-services" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/native" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/tooling-api" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/platform-play" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/ivy" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/wrapper" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/process-services" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/plugins" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/antlr" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/plugin-use" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/language-jvm" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/maven" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/testing-base" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/resources" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/version-control" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/osgi" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/testing-junit-platform" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/resources-http" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/internal-testing" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/composite-builds" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/model-groovy" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/test-kit" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/cli" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/build-init" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/ear" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/jacoco" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/persistent-cache" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/build-comparison" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/publish" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/platform-jvm" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/resources-sftp" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/base-services" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/model-core" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/scala" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/diagnostics" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/dependency-management" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/ide-play" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/workers" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/code-quality" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/language-java" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/build-cache" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/plugin-development" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/core-api" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/javascript" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/resources-gcs" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/testing-native" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/internal-performance-testing" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/ide-native" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/base-services-groovy" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/messaging" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/testing-jvm" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/tooling-api-builders" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/logging" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/language-scala" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/language-native" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/resources-s3" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/internal-android-performance-testing" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/src/build-cache-http" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-logging-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-wrapper-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-process-services-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-build-cache-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-core-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/groovy-all-2.4.12.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-model-core-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/ant-1.9.9.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-launcher-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-messaging-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-build-option-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-base-services-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-docs-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-cli-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-core-api-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-resources-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/services/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/LogManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/HighlightClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/unit/StartProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingCellsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/HighlightService.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/business_objects/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/ExportExcelService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/WarningMessagesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/OvertimeCancellingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/TableJournalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/ArrowsWrapped.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/CalendarEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/unit/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/DefaultPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logics/CalendarLogics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/click/ClickImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/ClickImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logics/FillingTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingActivityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingHoursService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceSecond.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceThird.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceForth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceFifth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceSixth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceSeventh.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceFirst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logics/ClickImplementation.java" />
+        <option value="$PROJECT_DIR$/keys.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/Arrow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/Block.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/DateEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/Button.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/Link.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/Table.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/TextBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrapped/TextInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blocks/Calendar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blocks/WarningMessagesBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ExportExcelPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/OvertimeCancellingPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/unit/TestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/CalendarService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/ControlPanelService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="362" />
+    <option name="y" value="23" />
+    <option name="width" value="1667" />
+    <option name="height" value="955" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapped" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-in_progress" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="sendKeys&#9;PSI&#9;JAVA://services.LoginService#passwordFieldSendKeys" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="services" />
+      <recent name="blocks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestClass.checkAddHoursWorkCorrectly" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="time_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="checkAddHoursWorkCorrectly" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestClass.checkExportUnavailableForMoreThanYearPeriod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="time_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="checkExportUnavailableForMoreThanYearPeriod" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="time_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="checkThereIsNoProjectAvailableForInvalidTimePeriod" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestClass.exportExcel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="time_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="exportExcel" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="/Users/katsiaryna_hrynchuk/Downloads/tododo2/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="time_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/katsiaryna_hrynchuk/Downloads/tododo2/src/test/resources/testng.xml" />
+      <item itemvalue="TestNG.TestClass.checkExportUnavailableForMoreThanYearPeriod" />
+      <item itemvalue="TestNG.TestClass.checkAddHoursWorkCorrectly" />
+      <item itemvalue="TestNG.TestClass.exportExcel" />
+      <item itemvalue="TestNG.TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" />
+        <item itemvalue="TestNG.TestClass.checkAddHoursWorkCorrectly" />
+        <item itemvalue="TestNG.TestClass.exportExcel" />
+        <item itemvalue="TestNG.TestClass.checkExportUnavailableForMoreThanYearPeriod" />
+        <item itemvalue="TestNG./Users/katsiaryna_hrynchuk/Downloads/tododo2/src/test/resources/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,SHOW_NON_PUBLIC" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="" />
+      <created>1530459716450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530459716450</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.08.12 at 11h 43m 29s.xml">
+      <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.08.12 at 11h 48m 09s.xml">
+      <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.08.12 at 11h 48m 54s.xml">
+      <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.08.13 at 12h 00m 54s.xml">
+      <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.08.13 at 12h 01m 55s.xml">
+      <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.08.13 at 12h 02m 40s.xml">
+      <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.08.13 at 12h 03m 28s.xml">
+      <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_checkAddHoursWorkCorrectly - 2018.08.13 at 12h 35m 31s.xml">
+      <configuration name="TestClass.checkAddHoursWorkCorrectly" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_checkAddHoursWorkCorrectly - 2018.08.13 at 12h 37m 44s.xml">
+      <configuration name="TestClass.checkAddHoursWorkCorrectly" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass_checkThereIsNoProjectAvailableForInvalidTimePeriod - 2018.08.13 at 17h 10m 26s.xml">
+      <configuration name="TestClass.checkThereIsNoProjectAvailableForInvalidTimePeriod" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="362" y="23" width="1667" height="955" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4725" weight="0.31812257" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.34313136" side_tool="true" visible="true" weight="0.33484676" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65686864" visible="true" weight="0.33484676" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" x="627" y="46" width="346" height="767" id="Project" order="0" sideWeight="0.8191126" visible="true" weight="0.24235153" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49790043" weight="0.19182748" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info id="Structure" order="1" sideWeight="0.18088737" side_tool="true" visible="true" weight="0.24235153" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.495" weight="0.39374185" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.23214285" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="69" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="driver.findElements(By.xpath(&quot;//span[@class='item-text']&quot;)).get(0).click()" language="JAVA" />
+        <watch expression="driver.findElements(By.cssSelector(&quot;#choose-project-select &gt; section &gt; div&gt; span&quot;)).get(0).getText()" language="JAVA" />
+        <watch expression="driver.findElements(By.xpath(&quot;//figure[@class='user-photo-container']/../span[@class='export-excel']&quot;))" language="JAVA" />
+        <watch expression="dateBeforeYearSwitch.value" />
+        <watch expression="loginPage" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>loginPage</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElements(By.xpath(&quot;//figure[@class='user-photo-container']/../span[@class='export-excel']&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElements(By.xpath(&quot;//figure[@class='user-photo-container']/../span[@class='name']&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElements(By.xpath(&quot;//figure[@class='user-photo-container']/../span&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElements(By.xpath(&quot;//span[@class='item-text']&quot;)).get(0).click()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/OvertimeCancellingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/TableJournalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Wrapped.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.htmlelements/htmlelements-java/1.19/ad9b0b90a557c9ef8b33b926344976157b2307bf/htmlelements-java-1.19-sources.jar!/ru/yandex/qatools/htmlelements/element/TextBlock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/unit/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.htmlelements/htmlelements-java/1.19/ad9b0b90a557c9ef8b33b926344976157b2307bf/htmlelements-java-1.19-sources.jar!/ru/yandex/qatools/htmlelements/loader/decorator/HtmlElementDecorator.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.htmlelements/htmlelements-java/1.19/ad9b0b90a557c9ef8b33b926344976157b2307bf/htmlelements-java-1.19-sources.jar!/ru/yandex/qatools/htmlelements/loader/HtmlElementLoader.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.8.1/7e6d16b90cf9435ab5182e89c33bb3c322ed1b86/selenium-remote-driver-3.8.1-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="590" selection-start-line="590" selection-end-line="592" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.8.1/473d7a8289d2dc7e9b0404ca276d63c1ef3a6cea/selenium-api-3.8.1-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.htmlelements/htmlelements-java/1.19/ad9b0b90a557c9ef8b33b926344976157b2307bf/htmlelements-java-1.19-sources.jar!/ru/yandex/qatools/htmlelements/element/HtmlElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.8.1/7e6d16b90cf9435ab5182e89c33bb3c322ed1b86/selenium-remote-driver-3.8.1-sources.jar!/org/openqa/selenium/remote/DriverCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/ed233607c5c11e1a13a3fd760033ed5d9fe525c2/guava-23.0-sources.jar!/com/google/common/collect/ImmutableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7796">
+          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/FillingHoursService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/FillingActivityServiceSecond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/FillingActivityServiceThird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/FillingActivityServiceForth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/FillingActivityServiceSixth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/FillingActivityServiceSeventh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/HighlightService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/logics/FillingTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/FillingActivityServiceFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.8.1/7e6d16b90cf9435ab5182e89c33bb3c322ed1b86/selenium-remote-driver-3.8.1-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logics/ClickImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ExportExcelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.htmlelements/htmlelements-java/1.19/ad9b0b90a557c9ef8b33b926344976157b2307bf/htmlelements-java-1.19-sources.jar!/ru/yandex/qatools/htmlelements/element/TypifiedElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/Arrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/DateEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/ButtonCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.htmlelements/htmlelements-java/1.19/ad9b0b90a557c9ef8b33b926344976157b2307bf/htmlelements-java-1.19-sources.jar!/ru/yandex/qatools/htmlelements/element/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/WarningMessagesBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DefaultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/OvertimeCancellingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ExportExcelPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/TableCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/unit/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/TextBlockCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/TextInputCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrapped/LinkCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/CalendarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ControlPanelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#2933#2934#0" expanded="true" />
+            <element signature="e#3003#3004#0" expanded="true" />
+            <element signature="e#3162#3163#0" expanded="true" />
+            <element signature="e#3226#3227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/FillingActivityServiceFifth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blocks/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logics/CalendarLogics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="675" column="5" lean-forward="true" selection-start-line="675" selection-start-column="5" selection-end-line="675" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>time_main|time</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.beust:jcommander:1.72</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

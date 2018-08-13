@@ -1,0 +1,25 @@
+group 'com.cdp.selenium'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.8.1'
+    compile group: 'ru.yandex.qatools.htmlelements', name: 'htmlelements-java', version: '1.19'
+    compile group: 'ru.yandex.qatools.htmlelements', name: 'htmlelements-matchers', version: '1.19'
+    compile "org.testng:testng:6.13.1"
+    test {
+        useTestNG() {
+            useDefaultListeners false
+            ignoreFailures false
+            suites 'src/test/resources/testng.xml'
+        }
+    }
+}
