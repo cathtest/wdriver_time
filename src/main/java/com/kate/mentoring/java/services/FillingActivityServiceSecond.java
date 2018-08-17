@@ -1,7 +1,7 @@
 package services;
 
 import blocks.TableJournalBlock;
-import logics.FillingTable;
+import com.kate.mentoring.java.logics.FillingTable;
 
 public class FillingActivityServiceSecond extends FillingTable{
     private TableJournalBlock tableJournalBlock;

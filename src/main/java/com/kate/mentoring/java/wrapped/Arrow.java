@@ -1,13 +1,15 @@
 package wrapped;
 
-import logics.ClickImplementation;
+import com.kate.mentoring.java.logics.ClickImplementation;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.htmlelements.element.TypifiedElement;
 
-public class DateEntity extends TypifiedElement {
-    ClickImplementation clickImplementation;
+public class Arrow extends TypifiedElement {
 
-    public DateEntity(WebElement wrappedElement ) {
+    private ClickImplementation clickImplementation;
+
+
+    public Arrow(WebElement wrappedElement) {
         super(wrappedElement);
         this.clickImplementation = new ClickImplementation();
     }
@@ -16,3 +18,5 @@ public class DateEntity extends TypifiedElement {
         clickImplementation.click(getWrappedElement());
     }
 }
+
+

@@ -1,5 +1,6 @@
 package pages;
 
+import blocks.Calendar;
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.htmlelements.element.Button;
 import ru.yandex.qatools.htmlelements.element.TextInput;
@@ -16,6 +17,7 @@ public class LoginPage extends DefaultPage{
 
     @FindBy(css = "span#submitButton.submit")
     private ButtonCustom submitButton;
+
 
 
     public TextInputCustom getNameField() {

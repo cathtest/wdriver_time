@@ -1,7 +1,6 @@
 package services;
 
 import blocks.ControlPanelBlock;
-import logics.ClickImplementation;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.htmlelements.element.TextBlock;
 import java.util.List;

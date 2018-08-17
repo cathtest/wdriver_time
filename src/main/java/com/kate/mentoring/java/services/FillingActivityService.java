@@ -1,7 +1,7 @@
 package services;
 
 import blocks.TableJournalBlock;
-import logics.FillingTable;
+import com.kate.mentoring.java.logics.FillingTable;
 
 public class FillingActivityServiceSeventh extends FillingTable{
     private TableJournalBlock tableJournalBlock;
@@ -10,7 +10,7 @@ public class FillingActivityServiceSeventh extends FillingTable{
         this.tableJournalBlock =  new TableJournalBlock();
     }
 
-    public void fill() {
+    public void fill(String value) {
         fillJSE(tableJournalBlock.getActivityField(), "arguments[0].value='Charles';");
     }
 }

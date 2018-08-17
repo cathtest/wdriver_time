@@ -1,6 +1,6 @@
 package services;
 
-import logics.Fill;
+import com.kate.mentoring.java.logics.Fill;
 
 
 public abstract class SmallQuantity extends Fill {

@@ -1,15 +1,15 @@
 package wrapped;
 
-import logics.ClickImplementation;
+import com.kate.mentoring.java.logics.ClickImplementation;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.htmlelements.element.TypifiedElement;
 
-public class TextInputCustom extends TypifiedElement {
+public class TextBlockCustom extends TypifiedElement {
 
     ClickImplementation clickImplementation;
 
 
-    public TextInputCustom(WebElement wrappedElement) {
+    public TextBlockCustom(WebElement wrappedElement) {
         super(wrappedElement);
         this.clickImplementation = new ClickImplementation();
     }

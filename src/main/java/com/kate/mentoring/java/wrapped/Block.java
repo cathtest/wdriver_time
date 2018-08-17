@@ -1,15 +1,13 @@
 package wrapped;
 
-import logics.ClickImplementation;
+import com.kate.mentoring.java.logics.ClickImplementation;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.htmlelements.element.TypifiedElement;
 
-public class LinkCustom extends TypifiedElement {
-
+public class Block <T> extends TypifiedElement{
     ClickImplementation clickImplementation;
 
-
-    public LinkCustom(WebElement wrappedElement) {
+    public Block(final WebElement wrappedElement) {
         super(wrappedElement);
         this.clickImplementation = new ClickImplementation();
     }

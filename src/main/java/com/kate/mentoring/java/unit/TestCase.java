@@ -1,10 +1,10 @@
 package unit;
 
-import business_objects.User;
-import logics.ClickImplementation;
-import logics.CalendarLogics;
+import business_objects.UserModel;
+import com.kate.mentoring.java.logics.CalendarLogics;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import services.*;
 import utils.LogManager;
 
@@ -28,7 +28,7 @@ public class TestCase {
     private LoginService loginService;
     protected LogManager logManager;
     private Properties properties;
-    private User user;
+    private UserModel userModel;
     protected FillingActivityServiceFirst fillingActivityServiceFirst;
     protected FillingActivityServiceSecond fillingActivityServiceSecond;
     protected FillingActivityServiceThird fillingActivityServiceThird;
@@ -94,9 +94,17 @@ public class TestCase {
 
     }
 
-    @BeforeMethod(description = "Initializing business objects", groups = "fifth", dependsOnGroups = "third")
+    @BeforeSuite(description = "Initializing business objects", groups = "fifth", dependsOnGroups = "third")
     public void initBusinessObjects(){
-        user = new User();
+        try(FileReader reader = new FileReader("keys.properties")){
+            Properties properties;
+            properties = new Properties();
+            properties.load(reader);
+
+            userModel = new UserModel(properties.getProperty("USER_NAME"), properties.getProperty("PASSWORD"));
+        }catch(Exception e){
+            e.printStackTrace();
+        }
     }
 
 
@@ -104,9 +112,9 @@ public class TestCase {
     public void login(){
         logManager.loggingInfo("Logging in");
         loginService.nameFieldClick();
-        loginService.nameFieldSendKeys(user.getUsername());
+        loginService.nameFieldSendKeys(userModel.getUsername());
         loginService.passwordFieldClick();
-        loginService.passwordFieldSendKeys(user.getPassword());
+        loginService.passwordFieldSendKeys(userModel.getPassword());
         loginService.submitButtonClick();
     }
 
