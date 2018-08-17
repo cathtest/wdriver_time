@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/business_objects/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/clickerStrategy/ElementClickerStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/clickerStrategy/HighlighterClickerStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/clickerStrategy/IClickerStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/enums/ActivityNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/enums/ProjectProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/properties/PropertiesReaderSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keys.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/keys.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blocks/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/blocks/Calendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blocks/ControlPanelBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/blocks/ControlPanelBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blocks/TableJournalBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/blocks/TableJournalBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blocks/WarningMessagesBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/blocks/WarningMessagesBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/business_objects/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logics/CalendarLogics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logics/ClickImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logics/Fill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logics/FillingTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DefaultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/DefaultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ExportExcelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/ExportExcelPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/OvertimeCancellingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/OvertimeCancellingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/BigQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/BigQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/CalendarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/CalendarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/ControlPanelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/ControlPanelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/ExportExcelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/ExportExcelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceFifth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceFirst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceForth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/FillingActivityServiceSecond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceSeventh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/FillingActivityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceSixth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/FillingActivityServiceSixth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/FillingActivityServiceThird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/FillingActivityServiceThird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/OneQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/OneQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/OvertimeCancellingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/OvertimeCancellingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/SmallQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/SmallQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/TableJournalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/TableJournalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/TwentyFiveQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/TwentyFiveQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/TwoQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/TwoQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/WarningMessagesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/WarningMessagesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unit/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/unit/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unit/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/unit/TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/LogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/utils/LogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Sleeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/utils/Sleeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapped/Arrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/Arrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapped/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapped/ButtonCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/ButtonCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapped/DateEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/DateEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapped/LinkCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/LinkCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapped/TableCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/TableCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapped/TextBlockCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/TextBlockCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wrapped/TextInputCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/TextInputCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="test" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -122,8 +67,8 @@
       <file leaf-file-name="ClickImplementation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/ClickImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="300">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
                 <element signature="e#937#938#0" expanded="true" />
                 <element signature="e#985#986#0" expanded="true" />
@@ -686,6 +631,33 @@
               <item name="time" type="b2602c69:ProjectViewProjectNode" />
               <item name="wdriver_time-try" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-try" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="clickerStrategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-try" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wdriver_time-try" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -987,8 +959,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="23" width="1884" height="1002" extended-state="0" />
-    <editor active="true" />
+    <frame x="22" y="23" width="1884" height="1002" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -996,14 +967,14 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159234" side_tool="true" visible="true" weight="0.33297414" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.50159234" side_tool="true" visible="true" weight="0.33297414" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6502123" weight="0.33297414" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" x="627" y="46" width="346" height="767" id="Project" order="0" sideWeight="0.79321486" visible="true" weight="0.2468153" />
+      <window_info content_ui="combo" x="627" y="46" width="346" height="767" id="Project" order="0" sideWeight="0.79321486" visible="true" weight="0.2468153" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49734607" weight="0.19181034" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840763" weight="0.23168103" />
       <window_info anchor="right" id="Gradle" order="5" />
@@ -1476,8 +1447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/ClickImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="300">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="e#937#938#0" expanded="true" />
             <element signature="e#985#986#0" expanded="true" />
