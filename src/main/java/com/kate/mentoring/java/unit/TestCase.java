@@ -1,12 +1,12 @@
-package unit;
+package com.kate.mentoring.java.unit;
 
-import business_objects.UserModel;
+import com.kate.mentoring.java.business_objects.UserModel;
 import com.kate.mentoring.java.logics.CalendarLogics;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import services.*;
-import utils.LogManager;
+import com.kate.mentoring.java.services.*;
+import com.kate.mentoring.java.utils.LogManager;
 
 import java.io.FileReader;
 import java.util.Properties;
@@ -29,13 +29,7 @@ public class TestCase {
     protected LogManager logManager;
     private Properties properties;
     private UserModel userModel;
-    protected FillingActivityServiceFirst fillingActivityServiceFirst;
-    protected FillingActivityServiceSecond fillingActivityServiceSecond;
-    protected FillingActivityServiceThird fillingActivityServiceThird;
-    protected FillingActivityServiceForth fillingActivityServiceForth;
-    protected FillingActivityServiceFifth fillingActivityServiceFifth;
-    protected FillingActivityServiceSixth fillingActivityServiceSixth;
-    protected FillingActivityServiceSeventh fillingActivityServiceSeventh;
+    protected FillingActivityService fillingActivityService;
     protected SmallQuantity smallQuantity;
     protected BigQuantity bigQuantity;
 
@@ -74,7 +68,7 @@ public class TestCase {
     }
 
 
-    @BeforeMethod (description = "Initializing services", groups = "forth", dependsOnGroups = "third")
+    @BeforeMethod (description = "Initializing com.kate.mentoring.java.services", groups = "forth", dependsOnGroups = "third")
     public void initServices(){
         controlPanelService = new ControlPanelService();
         exportExcelService = new ExportExcelService();
@@ -90,7 +84,7 @@ public class TestCase {
         fillingActivityServiceForth = new FillingActivityServiceForth();
         fillingActivityServiceFifth = new FillingActivityServiceFifth();
         fillingActivityServiceSixth = new FillingActivityServiceSixth();
-        fillingActivityServiceSeventh = new FillingActivityServiceSeventh();
+        fillingActivityService = new FillingActivityService();
 
     }
 

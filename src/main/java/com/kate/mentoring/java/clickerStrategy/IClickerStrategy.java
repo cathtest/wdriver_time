@@ -1,8 +1,8 @@
-package com.kate.mentoring.java.clicker;
+package com.kate.mentoring.java.clickerStrategy;
 
 import org.openqa.selenium.WebElement;
 
-public interface IClicker {
+public interface IClickerStrategy {
 
     void click(WebElement click);
 }

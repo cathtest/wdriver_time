@@ -1,6 +1,6 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import blocks.WarningMessagesBlock;
+import com.kate.mentoring.java.blocks.WarningMessagesBlock;
 
 public class WarningMessagesService {
 

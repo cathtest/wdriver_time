@@ -1,12 +1,11 @@
-package blocks;
+package com.kate.mentoring.java.blocks;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages.DefaultPage;
-import ru.yandex.qatools.htmlelements.element.Button;
-import wrapped.Arrow;
-import wrapped.ButtonCustom;
-import wrapped.DateEntity;
+import com.kate.mentoring.java.pages.DefaultPage;
+import com.kate.mentoring.java.wrapped.Arrow;
+import com.kate.mentoring.java.wrapped.ButtonCustom;
+import com.kate.mentoring.java.wrapped.DateEntity;
 
 import java.util.List;
 

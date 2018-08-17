@@ -1,4 +1,4 @@
-package business_objects;
+package com.kate.mentoring.java.business_objects;
 
 public class UserModel {
 

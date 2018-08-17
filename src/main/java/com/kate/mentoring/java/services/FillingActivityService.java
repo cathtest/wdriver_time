@@ -1,16 +1,16 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import blocks.TableJournalBlock;
+import com.kate.mentoring.java.blocks.TableJournalBlock;
 import com.kate.mentoring.java.logics.FillingTable;
 
-public class FillingActivityServiceSeventh extends FillingTable{
+public class FillingActivityService extends FillingTable{
     private TableJournalBlock tableJournalBlock;
 
-    public FillingActivityServiceSeventh() {
+    public FillingActivityService() {
         this.tableJournalBlock =  new TableJournalBlock();
     }
 
     public void fill(String value) {
-        fillJSE(tableJournalBlock.getActivityField(), "arguments[0].value='Charles';");
+        fillJSE(tableJournalBlock.getActivityField(), "arguments[0].value='"+value+"';");
     }
 }

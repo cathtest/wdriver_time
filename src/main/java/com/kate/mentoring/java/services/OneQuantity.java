@@ -1,6 +1,6 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import blocks.TableJournalBlock;
+import com.kate.mentoring.java.blocks.TableJournalBlock;
 
 public class OneQuantity extends SmallQuantity{
 

@@ -1,4 +1,4 @@
-package utils;
+package com.kate.mentoring.java.utils;
 
 public class Sleeper {
 

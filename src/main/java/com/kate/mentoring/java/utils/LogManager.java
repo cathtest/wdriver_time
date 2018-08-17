@@ -1,4 +1,4 @@
-package utils;
+package com.kate.mentoring.java.utils;
 import java.util.logging.Logger;
 
 public class LogManager {

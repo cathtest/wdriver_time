@@ -1,11 +1,8 @@
-package pages;
+package com.kate.mentoring.java.pages;
 
-import blocks.Calendar;
 import org.openqa.selenium.support.FindBy;
-import ru.yandex.qatools.htmlelements.element.Button;
-import ru.yandex.qatools.htmlelements.element.TextInput;
-import wrapped.ButtonCustom;
-import wrapped.TextInputCustom;
+import com.kate.mentoring.java.wrapped.ButtonCustom;
+import com.kate.mentoring.java.wrapped.TextInputCustom;
 
 public class LoginPage extends DefaultPage{
 

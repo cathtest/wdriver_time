@@ -1,6 +1,6 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import blocks.TableJournalBlock;
+import com.kate.mentoring.java.blocks.TableJournalBlock;
 import com.kate.mentoring.java.logics.FillingTable;
 
 public class FillingActivityServiceSixth extends FillingTable{
@@ -11,6 +11,6 @@ public class FillingActivityServiceSixth extends FillingTable{
     }
 
     public void fill() {
-        fillJSE(tableJournalBlock.getActivityField(), "arguments[0].value='Test';");
+        fillJSE(tableJournalBlock.getActivityField(), "arguments[0].value='';");
     }
 }

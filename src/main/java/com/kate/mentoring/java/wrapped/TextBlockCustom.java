@@ -1,4 +1,4 @@
-package wrapped;
+package com.kate.mentoring.java.wrapped;
 
 import com.kate.mentoring.java.logics.ClickImplementation;
 import org.openqa.selenium.WebElement;

@@ -1,9 +1,7 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import blocks.TableJournalBlock;
-import org.openqa.selenium.JavascriptExecutor;
+import com.kate.mentoring.java.blocks.TableJournalBlock;
 import org.openqa.selenium.WebElement;
-import unit.DriverManager;
 
 public class TableJournalService {
 

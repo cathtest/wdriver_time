@@ -1,6 +1,6 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import pages.OvertimeCancellingPage;
+import com.kate.mentoring.java.pages.OvertimeCancellingPage;
 
 public class OvertimeCancellingService {
 

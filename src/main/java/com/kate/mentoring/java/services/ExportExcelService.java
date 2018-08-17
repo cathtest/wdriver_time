@@ -1,6 +1,6 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import pages.ExportExcelPage;
+import com.kate.mentoring.java.pages.ExportExcelPage;
 
 public class ExportExcelService  {
 

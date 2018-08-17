@@ -1,6 +1,6 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import pages.LoginPage;
+import com.kate.mentoring.java.pages.LoginPage;
 
 public class LoginService {
 

@@ -1,6 +1,6 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import blocks.ControlPanelBlock;
+import com.kate.mentoring.java.blocks.ControlPanelBlock;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.htmlelements.element.TextBlock;
 import java.util.List;

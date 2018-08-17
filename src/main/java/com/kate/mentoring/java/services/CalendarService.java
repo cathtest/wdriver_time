@@ -1,7 +1,7 @@
-package services;
+package com.kate.mentoring.java.services;
 
-import blocks.Calendar;
-import wrapped.DateEntity;
+import com.kate.mentoring.java.blocks.Calendar;
+import com.kate.mentoring.java.wrapped.DateEntity;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package services;
+package com.kate.mentoring.java.services;
 
 import com.kate.mentoring.java.logics.Fill;
 

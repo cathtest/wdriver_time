@@ -1,15 +1,18 @@
+import com.kate.mentoring.java.enums.ActivityNames;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.htmlelements.element.TextBlock;
-import services.*;
-import unit.DriverManager;
-import unit.TestCase;
-import utils.Sleeper;
+import com.kate.mentoring.java.services.*;
+import com.kate.mentoring.java.unit.DriverManager;
+import com.kate.mentoring.java.unit.TestCase;
+import com.kate.mentoring.java.utils.Sleeper;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+
+import static com.kate.mentoring.java.enums.ActivityNames.BUGS_LOGGING;
+import static com.kate.mentoring.java.enums.ActivityNames.REQUIREMENTS;
 
 public class TestClass extends TestCase {
 
@@ -25,7 +28,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickOnTheFirstActivity();
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingActivityServiceFirst.fill();
+        fillingActivityService.fill(REQUIREMENTS.getValue());
 
         logManager.loggingInfo("Filling cells");
         smallQuantity = new TwoQuantity();
@@ -144,7 +147,7 @@ public class TestClass extends TestCase {
             listOfTeamMembers.forEach(member->{
                 logManager.loggingInfo("Checking certain user has reported his time");
 
-                Assert.assertTrue(totalHoursForUser.matches(regEx), logManager.loggingSevere("User hasn't filled his time")); }
+                Assert.assertTrue(totalHoursForUser.matches(regEx), logManager.loggingSevere("UserModel hasn't filled his time")); }
             );
         }
     }
@@ -192,10 +195,10 @@ public class TestClass extends TestCase {
 
     @Test(description =
             "\n 1. Open time.epam.com" +
-            "\n 2. Click the Current User button at the top left corner" +
+            "\n 2. Click the Current UserModel button at the top left corner" +
             "\n 3. Click search button" +
             "\n 4. Enter existing user name" +
-            "\n 5. Verify User is found")
+            "\n 5. Verify UserModel is found")
     public void checkUserSearchIsCorrect() {
         String someName = "Alexey Alexandrov";
 
@@ -230,7 +233,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingActivityServiceThird.fill();
+        fillingActivityService.fill(BUGS_LOGGING.getValue());
 
         logManager.loggingInfo("Filling cells with hours");
         smallQuantity = new OneQuantity();
@@ -383,13 +386,13 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingActivityServiceFifth.fill();
+        fillingActivityService.fill(ActivityNames.COMMUNICATION.getValue());
 
         logManager.loggingInfo("Clicking activity button");
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending the same keys to the newly created activity");
-        fillingActivityServiceFifth.fill();
+        fillingActivityService.fill(ActivityNames.COMMUNICATION.getValue());
 
         logManager.loggingInfo("Clicking Save button");
         controlPanelService.clickSaveHoursButton();
@@ -474,7 +477,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Sending keys to the activity");
-        fillingActivityServiceSeventh.fill();
+        fillingActivityService.fill(ActivityNames.CHARLES.getValue());
 
         logManager.loggingInfo("Filling cells with hours");
         smallQuantity = new TwoQuantity();
@@ -561,7 +564,7 @@ public class TestClass extends TestCase {
             "\n 6. Choose the first year on the list" +
             "\n 7. Choose the first month on the list" +
             "\n 8. Choose the first time range on the list" +
-            "\n 9. Click on User's list" +
+            "\n 9. Click on UserModel's list" +
             "\n 10. Verify 'You have no project team members to be reviewed' text is displayed")
     public void checkThereIsNoProjectAvailableForInvalidTimePeriod() {
         logManager.loggingInfo("Clicking Calendar button");
@@ -596,10 +599,10 @@ public class TestClass extends TestCase {
 
     @Test(description =
             "\n 1. Open time.epam.com" +
-            "\n 2. Click on User's list" +
+            "\n 2. Click on UserModel's list" +
             "\n 3. Click on any user from the list" +
             "\n 4. Choose Month view on Control panel" +
-            "\n 5. Click to return to current User's page on the Warning message" +
+            "\n 5. Click to return to current UserModel's page on the Warning message" +
             "\n 6. Refresh the page" +
             "\n 7. Verify the Month view is preserved")
     public void checkMonthViewIsPreserved(){
@@ -628,22 +631,22 @@ public class TestClass extends TestCase {
 
     @Test(description=
             "\n 1. Open time.epam.com" +
-            "\n 2. Click on User's list" +
-            "\n 3. Move mouse to the first User from the list" +
-            "\n 4. Check the colour of the User's name has been changed")
+            "\n 2. Click on UserModel's list" +
+            "\n 3. Move mouse to the first UserModel from the list" +
+            "\n 4. Check the colour of the UserModel's name has been changed")
     public void checkMouseState(){
         Actions builder = new Actions(DriverManager.getInstance().getDriver());
 
         logManager.loggingInfo("Clicking to show users' list");
         controlPanelService.clickToShowProjectUsers();
 
-        logManager.loggingInfo("Getting colour before moving mouse to the User'a name");
+        logManager.loggingInfo("Getting colour before moving mouse to the UserModel'a name");
         String colourBeforeMouseHover = controlPanelService.getUserNameWithIndex(0).getCssValue("color");
 
-        logManager.loggingInfo("Moving mouse to the User'a name");
+        logManager.loggingInfo("Moving mouse to the UserModel'a name");
         builder.moveToElement(controlPanelService.getUserNameWithIndex(0)).perform();
 
-        logManager.loggingInfo("Getting colour after moving mouse to the User'a name");
+        logManager.loggingInfo("Getting colour after moving mouse to the UserModel'a name");
         String colourAfterMouseHover = controlPanelService.getUserNameWithIndex(0).getCssValue("color");
 
         logManager.loggingInfo("Verifying 'before' and 'after' colours");
@@ -656,7 +659,7 @@ public class TestClass extends TestCase {
             "\n 1. Open time.epam.com" +
             "\n 2. Press Tab until Help is selected" +
             "\n 3. Press Enter" +
-            "\n 4. Check User is redirected to kb page")
+            "\n 4. Check UserModel is redirected to kb page")
     public void checkHelpCanBeOpenedViaTab(){
         logManager.loggingInfo("Getting current URL");
         String urlBeforeEnter = DriverManager.getInstance().getDriver().getCurrentUrl();
@@ -677,7 +680,7 @@ public class TestClass extends TestCase {
         logManager.loggingInfo("Getting current URL");
         String urlAfterEnter = DriverManager.getInstance().getDriver().getCurrentUrl();
 
-        Assert.assertEquals(urlBeforeEnter, urlAfterEnter, logManager.loggingSevere("User is not redirected to kb page"));
+        Assert.assertEquals(urlBeforeEnter, urlAfterEnter, logManager.loggingSevere("UserModel is not redirected to kb page"));
     }
 
     @Test(description=
@@ -691,7 +694,7 @@ public class TestClass extends TestCase {
         tableJournalService.clickActivityButtonWithIndex(0);
 
         logManager.loggingInfo("Filling Activity cell");
-        fillingActivityServiceSeventh.fill();
+        fillingActivityService.fill(ActivityNames.COMMUNICATION.getValue());
 
 
         logManager.loggingInfo("Filing all the working day cells with 25 hours");
@@ -702,7 +705,7 @@ public class TestClass extends TestCase {
         logManager.loggingInfo("Clicking to save hours");
         controlPanelService.clickSaveHoursButton();
 
-        Assert.assertTrue(warningMessagesService.checkModalWindowIsDisplayed(), logManager.loggingSevere("Warning message is not displayed, User can save more than 25 hours a day"));
+        Assert.assertTrue(warningMessagesService.checkModalWindowIsDisplayed(), logManager.loggingSevere("Warning message is not displayed, UserModel can save more than 25 hours a day"));
 
     }
 }

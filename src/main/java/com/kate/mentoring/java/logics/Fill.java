@@ -1,17 +1,12 @@
-package logics;
+package com.kate.mentoring.java.logics;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import unit.DriverManager;
+import com.kate.mentoring.java.unit.DriverManager;
 
-public abstract class FillingTable {
+public class Fill {
     public void fillJSE(WebElement we, String script) {
         JavascriptExecutor jse = (JavascriptExecutor) DriverManager.getInstance().getDriver();
         jse.executeScript(script, we);
     }
-
-    public abstract void fill();
-
-
 }
-

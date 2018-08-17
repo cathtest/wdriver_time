@@ -1,12 +1,12 @@
-package pages;
+package com.kate.mentoring.java.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.htmlelements.element.TextBlock;
 import ru.yandex.qatools.htmlelements.element.TypifiedElement;
 import ru.yandex.qatools.htmlelements.loader.HtmlElementLoader;
-import unit.DriverManager;
-import wrapped.Block;
+import com.kate.mentoring.java.unit.DriverManager;
+import com.kate.mentoring.java.wrapped.Block;
 
 
 public class DefaultPage {

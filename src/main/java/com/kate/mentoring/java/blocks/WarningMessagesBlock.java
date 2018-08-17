@@ -1,15 +1,12 @@
-package blocks;
+package com.kate.mentoring.java.blocks;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages.DefaultPage;
-import ru.yandex.qatools.htmlelements.element.Button;
-import ru.yandex.qatools.htmlelements.element.Link;
-import ru.yandex.qatools.htmlelements.element.TextBlock;
-import wrapped.Block;
-import wrapped.ButtonCustom;
-import wrapped.LinkCustom;
-import wrapped.TextBlockCustom;
+import com.kate.mentoring.java.pages.DefaultPage;
+import com.kate.mentoring.java.wrapped.Block;
+import com.kate.mentoring.java.wrapped.ButtonCustom;
+import com.kate.mentoring.java.wrapped.LinkCustom;
+import com.kate.mentoring.java.wrapped.TextBlockCustom;
 
 public class WarningMessagesBlock extends DefaultPage {
 
