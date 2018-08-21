@@ -1,11 +1,5 @@
 package com.kate.mentoring.java.enums;
 
-import com.kate.mentoring.java.properties.PropertiesReaderSingleton;
-import com.kate.mentoring.java.unit.TestCase;
-
-import java.io.IOException;
-import java.util.Properties;
-
 public enum  ProjectProperties {
 
     START_URL("START_URL"),
@@ -15,14 +9,14 @@ public enum  ProjectProperties {
     DRIVER_PATH("driverPath"),
     HIGHLIGHTER("highlighter");
 
-    private String value;
+    private String key;
 
-    ProjectProperties(String value){
-        PropertiesReaderSingleton.getInstance().createReader("src\\test\\resources\\keys.properties");
-        this.value = PropertiesReaderSingleton.getInstance().getValue(value);
+    ProjectProperties(String key){
+
+        this.key = key;
     }
 
     public String getValue() {
-        return value;
+        return key;
     }
 }

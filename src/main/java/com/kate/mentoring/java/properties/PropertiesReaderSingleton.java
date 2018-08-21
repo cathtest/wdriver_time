@@ -1,5 +1,7 @@
 package com.kate.mentoring.java.properties;
 
+import com.kate.mentoring.java.enums.ProjectProperties;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -18,7 +20,7 @@ public class PropertiesReaderSingleton {
 
     private FileReader reader;
 
-    public void createReader(String fileName){
+    private void createReader(String fileName){
         try {
             this.reader = new FileReader(fileName);
         } catch (FileNotFoundException e) {
@@ -36,8 +38,8 @@ public class PropertiesReaderSingleton {
         return reader;
     }
 
-
     public String getValue(String value){
+        PropertiesReaderSingleton.getInstance().createReader("src\\test\\resources\\keys.properties");
         getReader();
         return properties.getProperty(value);
     }

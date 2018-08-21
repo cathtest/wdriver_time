@@ -30,7 +30,6 @@ public class TestCase {
     protected OvertimeCancellingService overtimeCancellingService;
     private LoginService loginService;
     protected LogManager logManager;
-    private Properties properties;
     private UserModel userModel;
     protected FillingActivityService fillingActivityService;
     protected Quantity quantity;
@@ -43,14 +42,14 @@ public class TestCase {
 
     @BeforeSuite(description = "Initializing business objects")
     public void initBusinessObjects(){
-        userModel = new UserModel(ProjectProperties.USER_NAME.getValue(), ProjectProperties.PASSWORD.getValue());
+        userModel = new UserModel(PropertiesReaderSingleton.getInstance().getValue(ProjectProperties.USER_NAME.getValue()), PropertiesReaderSingleton.getInstance().getValue(ProjectProperties.PASSWORD.getValue()));
     }
 
     @BeforeMethod (description = "Initializing variables from properties", groups = "first")
     public void initProperties(){
-        startURL = ProjectProperties.START_URL.getValue();
-        driverType = ProjectProperties.DRIVER_TYPE.getValue();
-        driverPath = ProjectProperties.DRIVER_PATH.getValue();
+        startURL = PropertiesReaderSingleton.getInstance().getValue(ProjectProperties.START_URL.getValue());
+        driverType = PropertiesReaderSingleton.getInstance().getValue(ProjectProperties.DRIVER_TYPE.getValue());
+        driverPath = PropertiesReaderSingleton.getInstance().getValue(ProjectProperties.DRIVER_PATH.getValue());
     }
 
     @BeforeMethod (description = "Starting driver", groups = "second", dependsOnGroups = "first")
