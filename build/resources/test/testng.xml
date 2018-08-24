@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "All Suites">
+    <test name = "Tests">
+        <classes>
+        <class name ="TestExcel">
+        <class name ="TestOvetime">
+        <class name ="TestPanel">
+        <class name ="TestTimeFillig">
+        <class name ="TestTimeRange">
+        </class>
+    </classes>
+    </test>
+</suite>
