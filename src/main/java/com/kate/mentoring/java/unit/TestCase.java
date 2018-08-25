@@ -4,15 +4,12 @@ import com.kate.mentoring.java.business_objects.UserModel;
 import com.kate.mentoring.java.enums.ProjectProperties;
 import com.kate.mentoring.java.logics.CalendarLogics;
 import com.kate.mentoring.java.properties.PropertiesReaderSingleton;
+import com.kate.mentoring.java.services.*;
+import com.kate.mentoring.java.utils.LogManager;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import com.kate.mentoring.java.services.*;
-import com.kate.mentoring.java.utils.LogManager;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class TestCase {

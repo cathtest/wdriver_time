@@ -1,7 +1,5 @@
 package com.kate.mentoring.java.properties;
 
-import com.kate.mentoring.java.enums.ProjectProperties;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;

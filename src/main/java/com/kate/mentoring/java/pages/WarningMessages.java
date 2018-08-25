@@ -1,12 +1,11 @@
 package com.kate.mentoring.java.pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import com.kate.mentoring.java.pages.DefaultPage;
 import com.kate.mentoring.java.wrapped.Block;
 import com.kate.mentoring.java.wrapped.ButtonCustom;
 import com.kate.mentoring.java.wrapped.LinkCustom;
 import com.kate.mentoring.java.wrapped.TextBlockCustom;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class WarningMessages extends DefaultPage {
 

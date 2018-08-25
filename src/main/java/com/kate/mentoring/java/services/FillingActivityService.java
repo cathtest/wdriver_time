@@ -1,7 +1,7 @@
 package com.kate.mentoring.java.services;
 
-import com.kate.mentoring.java.pages.TableJournal;
 import com.kate.mentoring.java.logics.FillingTable;
+import com.kate.mentoring.java.pages.TableJournal;
 
 public class FillingActivityService extends FillingTable{
     private TableJournal tableJournalBlock;

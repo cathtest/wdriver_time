@@ -1,8 +1,8 @@
 package com.kate.mentoring.java.pages;
 
-import org.openqa.selenium.support.FindBy;
 import com.kate.mentoring.java.wrapped.ButtonCustom;
 import com.kate.mentoring.java.wrapped.TextInputCustom;
+import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends DefaultPage{
 

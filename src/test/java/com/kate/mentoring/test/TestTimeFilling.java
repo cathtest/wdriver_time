@@ -1,7 +1,6 @@
 package com.kate.mentoring.test;
 
 import com.kate.mentoring.java.enums.ActivityNames;
-import com.kate.mentoring.java.services.Quantity;
 import com.kate.mentoring.java.unit.DriverManager;
 import com.kate.mentoring.java.unit.TestCase;
 import com.kate.mentoring.java.utils.Sleeper;

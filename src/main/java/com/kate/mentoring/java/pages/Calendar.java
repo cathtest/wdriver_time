@@ -1,11 +1,10 @@
 package com.kate.mentoring.java.pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import com.kate.mentoring.java.pages.DefaultPage;
 import com.kate.mentoring.java.wrapped.Arrow;
 import com.kate.mentoring.java.wrapped.ButtonCustom;
 import com.kate.mentoring.java.wrapped.DateEntity;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-@Filling
-
 Feature: Filling cells
 
   Background:
-    Given I open "time.epam.com"
+    Given I open time.epam.com
+
+  @FillingTime
 
   Scenario Outline: Check cells are filled with hours
     When I click Add activity button

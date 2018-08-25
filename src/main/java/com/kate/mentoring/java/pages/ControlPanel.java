@@ -1,13 +1,13 @@
 package com.kate.mentoring.java.pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import com.kate.mentoring.java.pages.DefaultPage;
-import ru.yandex.qatools.htmlelements.element.*;
 import com.kate.mentoring.java.wrapped.ButtonCustom;
 import com.kate.mentoring.java.wrapped.DateEntity;
 import com.kate.mentoring.java.wrapped.TextBlockCustom;
 import com.kate.mentoring.java.wrapped.TextInputCustom;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import ru.yandex.qatools.htmlelements.element.Table;
+import ru.yandex.qatools.htmlelements.element.TextBlock;
 
 import java.util.List;
 

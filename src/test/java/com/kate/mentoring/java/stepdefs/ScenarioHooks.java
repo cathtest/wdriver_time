@@ -1,6 +1,5 @@
 package com.kate.mentoring.java.stepdefs;
 
-import com.kate.mentoring.java.business_objects.UserModel;
 import com.kate.mentoring.java.enums.ProjectProperties;
 import com.kate.mentoring.java.properties.PropertiesReaderSingleton;
 import com.kate.mentoring.java.unit.DriverManager;
@@ -8,15 +7,13 @@ import com.kate.mentoring.java.utils.LogManager;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
-
 import java.util.concurrent.TimeUnit;
 
 public class ScenarioHooks {
-    private String startURL;
+
     private String driverType;
     private String driverPath;
     protected LogManager logManager;
-    private UserModel userModel;
 
 
     @Before(order=1)

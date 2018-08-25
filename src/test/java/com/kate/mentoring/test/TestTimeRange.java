@@ -169,11 +169,11 @@ public class TestTimeRange extends TestCase{
             "\n 2. Click on Calendar" +
             "\n 3. Click on Calendar month view" +
             "\n 4. Click on Calendar year view" +
-            "\n 5. Click on left arrow till the seventies appear " +
-            "\n 6. Choose the first year on the list" +
+            "\n 5. Click on left arrow till year chosen appears" +
+            "\n 6. Click on the year chosen" +
             "\n 7. Choose the first month on the list" +
             "\n 8. Choose the first time range on the list" +
-            "\n 9. Click on UserModel's list" +
+            "\n 9. Click on User's list" +
             "\n 10. Verify 'You have no project team members to be reviewed' text is displayed")
     public void checkThereIsNoProjectAvailableForInvalidTimePeriod() {
         logManager.loggingInfo("Clicking Calendar button");
@@ -208,12 +208,11 @@ public class TestTimeRange extends TestCase{
 
     @Test(description =
             "\n 1. Open time.epam.com" +
-            "\n 2. Click on UserModel's list" +
+            "\n 2. Click on User's list" +
             "\n 3. Click on any user from the list" +
             "\n 4. Choose Month view on Control panel" +
-            "\n 5. Click to return to current UserModel's page on the Warning message" +
-            "\n 6. Refresh the page" +
-            "\n 7. Verify the Month view is preserved")
+            "\n 5. Click to return to current User's page on the Warning message" +
+            "\n 6. Verify the Month view is preserved")
     public void checkMonthViewIsPreserved(){
         logManager.loggingInfo("Clicking to shown users available on the project");
         controlPanelService.clickToShowProjectUsers();
@@ -237,5 +236,4 @@ public class TestTimeRange extends TestCase{
 
         Assert.assertEquals(verifyActiveRangeBeforeSwitch, verifyActiveRangeAfterSwitch, logManager.loggingSevere("Month view is not preserved"));
     }
-
 }

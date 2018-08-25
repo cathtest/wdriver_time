@@ -2,8 +2,8 @@ package com.kate.mentoring.java.stepdefs;
 
 
 import cucumber.api.CucumberOptions;
-import org.junit.runner.RunWith;
 import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 
@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
         plugin = {"json:target/cucumber-report.json",
                 "html:target/cucumber-report",
         },
-        tags={"@Search"},
+        tags = {"@Search", "@Excel", "@Calendar", "@ProjectList", "@FillingTime", "@MonthView"},
         features = {"src/test/resources/features/Panel.feature"})
 
 public class TestRunner {

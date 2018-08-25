@@ -1,14 +1,12 @@
 package com.kate.mentoring.java.stepdefs;
 
-import com.kate.mentoring.java.business_objects.UserModel;
-import com.kate.mentoring.java.enums.ProjectProperties;
-import com.kate.mentoring.java.properties.PropertiesReaderSingleton;
-import com.kate.mentoring.java.services.*;
-import com.kate.mentoring.java.unit.DriverManager;
+import com.kate.mentoring.java.services.ControlPanelService;
+import com.kate.mentoring.java.services.FillingActivityService;
+import com.kate.mentoring.java.services.Quantity;
+import com.kate.mentoring.java.services.TableJournalService;
 import com.kate.mentoring.java.utils.LogManager;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.testng.Assert;
@@ -17,33 +15,11 @@ import static com.kate.mentoring.java.enums.ActivityNames.REQUIREMENTS;
 
 public class FillingCellsStepdefs {
 
-    LogManager logManager = new LogManager();
-    TableJournalService tableJournalService = new TableJournalService();
-    FillingActivityService fillingActivityService = new FillingActivityService();
-    Quantity quantity = new Quantity();
-    ControlPanelService controlPanelService = new ControlPanelService();
-    LoginService loginService = new LoginService();
-
-
-    @Given("^I open \"([^\"]*)\"$")
-    public void iOpenTime() {
-        UserModel userModel = new UserModel(
-                PropertiesReaderSingleton.getInstance().getValue(ProjectProperties.USER_NAME.getValue()),
-                PropertiesReaderSingleton.getInstance().getValue(ProjectProperties.PASSWORD.getValue())
-        );
-
-        loginService = new LoginService();
-        logManager.loggingInfo("Logging in");
-        String startURL = PropertiesReaderSingleton.getInstance().getValue(ProjectProperties.START_URL.getValue());
-        DriverManager.getInstance().getDriver().get(startURL);
-        DriverManager.getInstance().getDriver().manage().window().maximize();
-        loginService.nameFieldClick();
-        loginService.nameFieldSendKeys(userModel.getUsername());
-        loginService.passwordFieldClick();
-        loginService.passwordFieldSendKeys(userModel.getPassword());
-        loginService.submitButtonClick();
-    }
-
+    private LogManager logManager = new LogManager();
+    private TableJournalService tableJournalService = new TableJournalService();
+    private FillingActivityService fillingActivityService = new FillingActivityService();
+    private Quantity quantity = new Quantity();
+    private ControlPanelService controlPanelService = new ControlPanelService();
 
     @When("^I click Add activity button$")
     public void iClickAddActivityButton() {

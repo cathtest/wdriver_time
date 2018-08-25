@@ -1,7 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="test" />
+    <list default="true" id="7e2857ef-f0b6-4f00-aabc-99cde2e709fa" name="Default" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ExportStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/LoginStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/MonthViewPreservedStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ProjectsShownStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Excel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/time_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/time_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/time_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/time_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/Calendar.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/Calendar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/DefaultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/DefaultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/ExportExcelPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/ExportExcelPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/OvertimeCancellingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/OvertimeCancellingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/TableJournal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/TableJournal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/WarningMessages.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/pages/WarningMessages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/properties/PropertiesReaderSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/properties/PropertiesReaderSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/services/ControlPanelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/services/ControlPanelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/unit/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/kate/mentoring/java/unit/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/java/stepdefs/FillingCellsStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/java/stepdefs/FillingCellsStepdefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/java/stepdefs/InitCucumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/java/stepdefs/PanelStepdefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/java/stepdefs/ScenarioHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/java/stepdefs/ScenarioHooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/java/stepdefs/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/java/stepdefs/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/test/TestOvertime.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/test/TestOvertime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/test/TestTimeFilling.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/test/TestTimeFilling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/test/TestTimeRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/kate/mentoring/test/TestTimeRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TestClass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/Panel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/Panel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/TimeFilling.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/TimeFilling.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TestClass.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/Calendar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/Calendar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/DefaultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/DefaultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/ExportExcelPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/ExportExcelPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/OvertimeCancellingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/OvertimeCancellingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/TableJournal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/TableJournal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/WarningMessages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/pages/WarningMessages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/properties/PropertiesReaderSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/properties/PropertiesReaderSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/services/ControlPanelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/services/ControlPanelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/unit/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kate/mentoring/java/unit/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/java/stepdefs/FillingCellsStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/java/stepdefs/FillingCellsStepdefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/java/stepdefs/InitCucumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/java/stepdefs/PanelStepdefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/java/stepdefs/ScenarioHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/java/stepdefs/ScenarioHooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/java/stepdefs/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/java/stepdefs/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/test/TestOvertime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/test/TestOvertime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/test/TestTimeFilling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/test/TestTimeFilling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/test/TestTimeRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kate/mentoring/test/TestTimeRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/Panel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/features/Panel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/TimeFilling.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/features/TimeFilling.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/CalendarLogics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/CalendarLogics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/FillingTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/FillingTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/Calendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/DefaultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/DefaultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/ExportExcelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/ExportExcelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/OvertimeCancellingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/OvertimeCancellingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/TableJournal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/TableJournal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/WarningMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/pages/WarningMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/properties/PropertiesReaderSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/properties/PropertiesReaderSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/ControlPanelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/ControlPanelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/FillingActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/FillingActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/unit/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/unit/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/FillingCellsStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/FillingCellsStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/InitCucumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/PanelStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/UserSearchStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ScenarioHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ScenarioHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestOvertime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestOvertime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestTimeFilling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestTimeFilling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestTimeRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestTimeRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Panel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Panel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TimeFilling.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TimeFilling.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,20 +116,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ScenarioHooks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ScenarioHooks.java">
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,17 +131,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeFilling.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/TimeFilling.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="435">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -68,20 +140,26 @@
       <file leaf-file-name="FillingCellsStepdefs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/FillingCellsStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            <state relative-caret-position="302">
+              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PanelStepdefs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/PanelStepdefs.java">
+      <file leaf-file-name="LoginStepDefs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/LoginStepDefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Excel.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Excel.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -89,20 +167,17 @@
       <file leaf-file-name="Panel.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Panel.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/TestRunner.java">
+      <file leaf-file-name="TimeFilling.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/TimeFilling.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -119,7 +194,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>select</find>
       <find>checkExportUnavailableForMoreThanYearPeriod|checkTodayButtonWorksCorrectly|checkTwoWeeksButtonWorksCorrectly</find>
       <find>Eight</find>
       <find>send</find>
@@ -149,6 +223,7 @@
       <find>overt</find>
       <find>fill</find>
       <find>search</find>
+      <find>tags</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -336,9 +411,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4604882903000" />
+        <entry key="$PROJECT_DIR$" value="4604968686000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3234759465" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2524686861" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="609667488" />
       </map>
     </option>
@@ -524,18 +599,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestExcel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestTimeRange.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/Fill.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/OneQuantity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/TwentyFiveQuantity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestOvertime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/FillHours.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/Quantity.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/ClickImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/Block.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/ButtonCustom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/TableCustom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/LinkCustom.java" />
@@ -546,7 +609,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/factory/ClickerFactory.java" />
         <option value="$PROJECT_DIR$/src/test/resources/keys.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/enums/ProjectProperties.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/unit/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/properties/PropertiesReaderSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/TextInputCustom.java" />
@@ -568,21 +630,34 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/TimeFilling.Feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/RunTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/CucumberTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ScenarioHooks.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/TimeFilling.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/CalendarStepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/PanelStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/CheckThereIsNoProjectAvailableForInvalidTimePeriodStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/NoProjectAvailableForInvalidTimePeriodStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestPanel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestTimeRange.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ScenarioHooks.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Excel.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Panel.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/TestRunner.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ExportStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/LoginStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/MonthViewPreservedStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ProjectsShownStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/UserSearchStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ProjectForInvalidTimePeriodStepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/TimeRange.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/TimeFilling.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/FillingCellsStepdefs.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="55" />
-    <option name="width" value="1843" />
-    <option name="height" value="884" />
+    <option name="x" value="282" />
+    <option name="y" value="72" />
+    <option name="width" value="1440" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -591,9 +666,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -690,18 +763,12 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="time" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wdriver_time-9_to_check" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -711,7 +778,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -740,7 +807,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber java.Feature: TimeFilling">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -749,29 +816,27 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="build (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="time" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
+    <configuration name="Feature: TimeFilling" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="time_test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
-    <configuration name="build (2)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="time" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-    </configuration>
-    <configuration name="build (3)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="time" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
+    <configuration name="Feature: TimeRange" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="time_test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="time" />
@@ -820,6 +885,35 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestTimeRange.checkMonthViewIsPreserved" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="time_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kate.mentoring.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.kate.mentoring.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kate.mentoring.test.TestTimeRange" />
+      <option name="METHOD_NAME" value="checkMonthViewIsPreserved" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -856,19 +950,18 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
+      <item itemvalue="Cucumber java.Feature: TimeRange" />
       <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="Groovy.build" />
-      <item itemvalue="Groovy.build (1)" />
-      <item itemvalue="Groovy.build (2)" />
-      <item itemvalue="Groovy.build (3)" />
+      <item itemvalue="TestNG.TestTimeRange.checkMonthViewIsPreserved" />
+      <item itemvalue="Cucumber java.Feature: TimeFilling" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: TimeFilling" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="TestNG.TestTimeRange.checkMonthViewIsPreserved" />
         <item itemvalue="Groovy.build" />
-        <item itemvalue="Groovy.build (3)" />
-        <item itemvalue="Groovy.build (2)" />
-        <item itemvalue="Groovy.build (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -890,68 +983,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__TimeFilling_(2) - 2018.08.23 at 21h 04m 25s.xml">
-      <configuration name="Feature: TimeFilling (2)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__TimeRange - 2018.08.25 at 14h 42m 20s.xml">
+      <configuration name="Feature: TimeRange" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Panel - 2018.08.23 at 21h 04m 37s.xml">
+    <history-entry file="Feature__TimeRange - 2018.08.25 at 14h 44m 15s.xml">
+      <configuration name="Feature: TimeRange" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__TimeRange - 2018.08.25 at 14h 47m 27s.xml">
+      <configuration name="Feature: TimeRange" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__TimeRange - 2018.08.25 at 15h 30m 57s.xml">
+      <configuration name="Feature: TimeRange" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__TimeRange - 2018.08.25 at 15h 31m 38s.xml">
+      <configuration name="Feature: TimeRange" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Panel - 2018.08.25 at 16h 40m 04s.xml">
       <configuration name="Feature: Panel" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.23 at 21h 12m 42s.xml">
+    <history-entry file="TestRunner - 2018.08.25 at 17h 16m 52s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.23 at 21h 15m 26s.xml">
+    <history-entry file="TestRunner - 2018.08.25 at 17h 25m 20s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.23 at 21h 17m 30s.xml">
+    <history-entry file="TestRunner - 2018.08.25 at 17h 36m 35s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.23 at 21h 17m 51s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.08.23 at 21h 24m 33s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.08.23 at 21h 26m 01s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.08.23 at 21h 26m 19s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.08.24 at 17h 10m 00s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
+    <history-entry file="Feature__TimeFilling - 2018.08.25 at 18h 15m 52s.xml">
+      <configuration name="Feature: TimeFilling" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="55" width="1843" height="884" extended-state="0" />
+    <frame x="282" y="72" width="1440" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.45286885" weight="0.31710213" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.45260417" weight="0.31614786" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.26532826" side_tool="true" visible="true" weight="0.2074074" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.19097222" side_tool="true" visible="true" weight="0.38501972" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81280524" weight="0.3962963" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8090278" visible="true" weight="0.38501972" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" x="627" y="46" width="346" height="767" id="Project" order="0" sideWeight="0.85825545" visible="true" weight="0.22734672" />
-      <window_info active="true" anchor="bottom" id="Build" order="10" sideWeight="0.7346717" visible="true" weight="0.2074074" />
+      <window_info content_ui="combo" x="627" y="46" width="346" height="767" id="Project" order="0" sideWeight="0.8482906" visible="true" weight="0.32916668" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" sideWeight="0.34687954" side_tool="true" weight="0.21875" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5650723" weight="0.39307788" />
-      <window_info id="Favorites" order="5" sideWeight="0.14174455" side_tool="true" visible="true" weight="0.22734672" />
+      <window_info id="Favorites" order="5" sideWeight="0.15170941" side_tool="true" visible="true" weight="0.32916668" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.73304397" weight="0.29382715" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840763" visible="true" weight="0.23168103" />
     </layout>
   </component>
@@ -1023,43 +1116,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/TwentyFiveQuantity.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestOvertime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/FillHours.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/Quantity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/FillingActivityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/FillingTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/logics/ClickImplementation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/wrapped/Block.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1136,13 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1226,27 +1275,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/TimeFillingStepDefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestTimeRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/ControlPanelService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/InitCucumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/InitCucumber.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1269,30 +1298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ScenarioHooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Panel.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/PanelStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-junit/1.1.2/5318f3c31d2a2defb28ead00d7874b3cd95ef392/cucumber-junit-1.1.2-sources.jar!/cucumber/runtime/junit/RuntimeOptionsFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -1300,41 +1305,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/TestRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kate/mentoring/java/services/ControlPanelService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="685">
+          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestTimeRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1249">
+          <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ProjectForInvalidTimePeriodStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ProjectsShownStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ScenarioHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/ExportStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/test/TestExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/MonthViewPreservedStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/UserSearchStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/TimeRange.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="435">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Excel.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/LoginStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Panel.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/TimeFilling.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kate/mentoring/java/stepdefs/FillingCellsStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="302">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
         </state>
       </provider>
     </entry>

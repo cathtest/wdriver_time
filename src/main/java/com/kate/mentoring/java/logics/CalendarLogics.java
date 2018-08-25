@@ -1,8 +1,8 @@
 package com.kate.mentoring.java.logics;
 
-import org.openqa.selenium.StaleElementReferenceException;
 import com.kate.mentoring.java.services.CalendarService;
 import com.kate.mentoring.java.utils.LogManager;
+import org.openqa.selenium.StaleElementReferenceException;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
