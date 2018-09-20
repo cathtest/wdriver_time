@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="pattern">%d{HH:mm:ss} [%-p] - %m%n</Property>
+    </Properties>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] %-5p (%F) - %m%n"/>
+        </Console>
+        <ReportPortalLog4j2Appender name="ReportPortalAppender">
+            <PatternLayout pattern="[%d{HH:mm:ss}] %-5p (%F) - %m%n"/>
+        </ReportPortalLog4j2Appender>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.epam.libg" level="debug">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="ReportPortalAppender"/>
+        </Logger>
+        <Logger name="com.epam.mobile" level="debug">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="ReportPortalAppender"/>
+        </Logger>
+        <Logger name="com.epam.ta" level="info">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="ReportPortalAppender"/>        </Logger>
+        <Logger name="org.apache.http" level="info">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="ReportPortalAppender"/>
+        </Logger>
+        <Root level="debug"/>
+    </Loggers>
+</Configuration>

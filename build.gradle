@@ -1,0 +1,53 @@
+group 'com.cdp.selenium'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url "https://dl.bintray.com/epam/reportportal" }
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.8.1'
+    compile "org.testng:testng:6.14.3"
+
+    compile group: 'ru.yandex.qatools.htmlelements', name: 'htmlelements-java', version: '1.19'
+    compile group: 'ru.yandex.qatools.htmlelements', name: 'htmlelements-matchers', version: '1.19'
+
+
+
+    compile group: 'com.epam.reportportal', name: 'agent-java-testng', version: '4.0.2'
+    compile group: 'com.epam.reportportal', name: 'logger-java-logback', version: '4.0.0'
+    compile group: 'com.epam.reportportal', name: 'logger-java-log4j', version: '4.0.1'
+
+
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.10.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.10.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-jul', version: '2.10.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.10.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-jcl', version: '2.10.0'
+
+
+
+
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+
+
+
+
+    test {
+        useTestNG() {
+            useDefaultListeners false
+            ignoreFailures false
+            suites 'src/test/resources/testng.xml'
+        }
+    }
+}

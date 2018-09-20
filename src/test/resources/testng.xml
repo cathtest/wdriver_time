@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "All Suites">
+    <listeners>
+        <listener class-name="com.kate.mentoring.java.listeners.reportportal.ReportPortalTestNGListener"/>
+        <listener class-name="com.kate.mentoring.java.listeners.test.ListenerTest"/>
+    </listeners>
+    <test name = "Tests">
+        <classes>
+        <class name ="com.kate.mentoring.test.TestExcel"/>
+        <class name ="com.kate.mentoring.test.TestOvertime"/>
+        <class name ="com.kate.mentoring.test.TestPanel"/>
+        <class name ="com.kate.mentoring.test.TestTimeFilling"/>
+        <class name ="com.kate.mentoring.test.TestTimeRange"/>
+    </classes>
+    </test>
+</suite>

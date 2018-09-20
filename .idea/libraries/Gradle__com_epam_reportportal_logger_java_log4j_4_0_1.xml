@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.epam.reportportal:logger-java-log4j:4.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/logger-java-log4j/4.0.1/c597b0c316c343219945b8cf64b4db3d74abc578/logger-java-log4j-4.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/logger-java-log4j/4.0.1/f1cfc9457290adcd5476b425fd582e170517c22a/logger-java-log4j-4.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

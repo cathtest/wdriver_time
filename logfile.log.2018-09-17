@@ -1,0 +1,12 @@
+=2018-09-17 19:47:02,076] [main] INFO (LogManager.java) - Start browser
+=2018-09-17 19:47:04,840] [main] INFO (LogManager.java) - Browser started
+=2018-09-17 19:47:05,710] [main] INFO (LogManager.java) - Logging in
+=2018-09-17 19:47:09,253] [main] INFO (LogManager.java) - Getting current URL
+=2018-09-17 19:47:09,264] [main] INFO (LogManager.java) - Clicking Export to Excel button
+=2018-09-17 19:47:09,264] [main] INFO (LogManager.java) - Clicking Export button
+=2018-09-17 19:53:24,863] [main] INFO (LogManager.java) - Start browser
+=2018-09-17 19:53:27,169] [main] INFO (LogManager.java) - Browser started
+=2018-09-17 19:53:28,126] [main] INFO (LogManager.java) - Logging in
+=2018-09-17 19:53:31,473] [main] INFO (LogManager.java) - Getting current URL
+=2018-09-17 19:53:31,511] [main] INFO (LogManager.java) - Clicking Export to Excel button
+=2018-09-17 19:53:31,511] [main] INFO (LogManager.java) - Clicking Export button
